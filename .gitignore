@@ -1,2 +1,7 @@
 
+ignore.js
+node_modules
+index.html
+package-lock.json
+package.json
 .gitignore
