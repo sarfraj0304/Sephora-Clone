@@ -1,1 +1,7 @@
+node_modules
+.git
+package.json
+package-lock.json
+index.html
 .gitignore
+index.js
