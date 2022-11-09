@@ -10,7 +10,7 @@
   justify-content: space-between;
 }
 .footer_container > .links_div > div{
-    
+    border: 1px solid red;
 }
 .media_connect_div {
   height: 100px;
