@@ -1379,5 +1379,35 @@
       "quantity": 50,
       "description": "Briogeo - Blossom & Bloom™ Volumize + Lift Hair Care Travel Kit"
     }
+  ],
+  "user_login_details": [
+    {
+      "firstname": "Ayush",
+      "lastname": "Gupta",
+      "email": "ayush8583@gmail.com",
+      "password": "ayush00000",
+      "id": "wNOKy7d"
+    },
+    {
+      "firstname": "sachin",
+      "lastname": "mishra",
+      "email": "sachin8583@gmail.com",
+      "password": "rishu767676",
+      "id": "U9w0GSK"
+    },
+    {
+      "firstname": "Ankul",
+      "lastname": "Kohli",
+      "email": "ankul8583@gmail.com",
+      "password": "ankul0000",
+      "id": "U3oJN_z"
+    },
+    {
+      "firstname": "sarfraz",
+      "lastname": "ali",
+      "email": "sarfraz8583@gmail.com",
+      "password": "sarfraz5555",
+      "id": "kOjdaZr"
+    }
   ]
 }
