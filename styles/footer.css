@@ -1,0 +1,20 @@
+.footer_container {
+  background-color: black;
+  border: 1px solid green;
+}
+.footer_container > .links_div {
+  height: 500px;
+  background-color: white;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_container > .links_div > div{
+    
+}
+.media_connect_div {
+  height: 100px;
+  background-color: white;
+  border: 1px solid;
+
+}
