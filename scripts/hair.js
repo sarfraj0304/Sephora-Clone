@@ -1,3 +1,8 @@
+import { navbar } from "../components/navbar.js"
+
+let header=document.getElementById("header")
+header.innerHTML=navbar()
+
 const getData=async()=>{
     try{
         let res=await fetch("http://localhost:3000/hair");
