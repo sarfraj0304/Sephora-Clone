@@ -97,15 +97,17 @@ const getData=async()=>{
 
   let data=await res.json()
    loginForm(data)
+   
+   
    console.log(data)
 }
 
 
 
-let flag;
+
  function loginForm(data) {
 //   alert("hello")
- flag=false;
+let flag=false
   let email=document.getElementById("email").value;
   let password=document.getElementById("password").value;
 data.forEach(function(el){
@@ -126,4 +128,67 @@ if(flag==true){
   
   
   }
+}
+
+const getForgotData=async()=>{
+
+  let res=await fetch("http://localhost:3000/user_login_details")
+
+  let data=await res.json()
+
+   
+   forgotPassword(data)
+   console.log(data)
+}
+
+
+
+
+let forgot =document.getElementById("forgot");
+forgot.onclick=()=>{
+
+
+getForgotData();
+}
+
+const forgotPassword=async(data)=>{
+let flag=false
+let id;
+let email_id=prompt("Please enter your email id");
+
+data.forEach(function(el){
+if(el.email===email_id){
+
+  flag=true
+   id =el.id
+}
+
+
+})
+if(flag==true){
+
+console.log(id)
+let new_password=prompt("Please enter your new password")
+
+let obj={
+  password:new_password,
+}
+let res=await fetch(`http://localhost:3000/user_login_details/${id}`,{
+
+method:"PATCH",
+body:JSON.stringify(obj),
+headers:{
+
+  'Content-Type':'application/json',
+},
+
+})
+let res_data=await res.json()
+console.log("data",res_data)
+
+}else{
+
+  alert("Please Enter right email id")
+}
+
 }
