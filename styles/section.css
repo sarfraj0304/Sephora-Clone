@@ -1,8 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
 section {
   z-index: 1;
 }
-.body_container {
-  border: 1px solid red;
-  height: 500px;
-  background-color: antiquewhite;
+/* .body_container {
+} */
+
+/* image slider style starts  */
+.wrapper {
+  position: relative;
+  margin: 8px 0;
+}
+.wrapper .caraousal {
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.caraousal.dragging {
+  scroll-behavior: auto;
+  cursor: grab;
+}
+.caraousal img {
+  pointer-events: none;
+}
+.wrapper > ion-icon {
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background-color: rgb(27, 26, 26);
+  border-radius: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+.wrapper > ion-icon:first-child {
+  left: 5px;
+  display: none;
+}
+.wrapper > ion-icon:last-child {
+  right: 5px;
+}
+.caraousal img {
+  object-fit: cover;
+  margin-left: 5px;
+  width: calc(100% / 2.5);
+}
+.caraousal img:first-child {
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .caraousal img {
+    width: calc(100% / 2);
+  }
+}
+@media screen and (max-width: 550px) {
+  .caraousal img {
+    width: 100%;
+  }
+}
+/* image slider style ends  */
+
+/* product slider style starts */
+.product_wrapper {
+  position: relative;
+  margin: 50px;
+}
+.product_wrapper > .product_caraousal {
+  white-space: nowrap;
+  display: flex;
+  padding: 25px 0;
+  cursor: pointer;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.product_2_caraousal.dragging {
+  scroll-behavior: auto;
+  cursor: grab;
+}
+.product_caraousal > div {
+  border-radius: 5px;
+  padding: 15px;
+  transition: 0.2s;
+  margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.product_caraousal > div:hover {
+  margin-top: -7px;
+  margin-bottom: 7px;
+}
+.product_wrapper > ion-icon {
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background-color: rgb(27, 26, 26);
+  border-radius: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+.product_wrapper > ion-icon:first-child {
+  left: -15px;
+  display: none;
+}
+.product_wrapper > ion-icon:last-child {
+  right: -15px;
+}
+.product_wrapper > h3 {
+  margin-left: 10px;
+}
+.product_caraousal > div > img {
+  width: 167.5px;
+  pointer-events: none;
+  padding: 8px;
+}
+.product_caraousal > div > h6 {
+  width: 150px;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.product_caraousal > div > p {
+  width: 160px;
+  line-height: 25px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.product_caraousal > div > button {
+  border: 2px solid;
+  background-color: white;
+  font-weight: bold;
+  padding: 6px 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.product_caraousal > div > button:hover {
+  border-color: rgb(88, 86, 86);
+  color: rgb(88, 86, 86);
+}
+@media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 550px) {
+}
+/* product slider ends  */
+
+/* card div starts  */
+.cards_div {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 45px;
+}
+.cards_div > div {
+  border-radius: 5px;
+  width: 31.5%;
+  margin: auto;
+}
+.cards_div > div > img{
+  width: 100%;
+}
+.cards_div > div > h3{
+  padding: 5px 20px;
+  padding-top: 15px;
+}
+.cards_div > div > p:nth-child(2) {
+  padding: 0px 20px;
+}
+.cards_div > div > p:nth-child(3) {
+  padding: 15px 20px;
+}
+.cards_div > div a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }

@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0 , shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>home</title>
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/section.css" />
@@ -15,34 +12,131 @@
   <body>
     <header id="header"></header>
     <section>
-      <div class="body_container"></div>
-    </section>
-    <footer>
-      <div class="footer_container">
-        <div class="links_div">
-          <div>
-            <h4>About Sephora</h4>
-            <ul>
-              <li><a href="">About Sephora</a></li>
-              <li><a href="">Newsroom</a></li>
-            </ul>
+      <div class="body_container">
+        <!-- image slider part starts -->
+        <div class="wrapper">
+          <ion-icon id="left" name="chevron-back-outline"></ion-icon>
+          <div class="caraousal">
+            <img
+              src="https://www.sephora.com/contentimages/2022-fragrance-q4-site-home-page-rwd-hero-banner-holiday-value-sets-75-under-us-01..jpg?imwidth=545"
+              alt=""
+              draggable="false"
+            />
+            <img
+              src="https://www.sephora.com/contentimages/2022-11-29-stock-up-on-dior-site-desktop-mweb-home-page-rwd-hero-banner-1000x750-en-us-can.jpg?imwidth=545"
+              alt=""
+              draggable="false"
+            />
+            <img
+              src="https://www.sephora.com/contentimages/2022-holiday-launch-general-site-desktop-home-page-hero-banner-rwd-v1-product-us-release-1000x750.jpg?imwidth=545"
+              alt=""
+              draggable="false"
+            />
+            <img
+              src="https://www.sephora.com/contentimages/2022-10-29-slotting-just-arrived-v2-standard-site-responsive-home-page-hero-banner-4-product-US-CA-handoff_01.jpg?imwidth=545"
+              alt=""
+              draggable="false"
+            />
           </div>
-          <div>
-            <h4>My Sephora</h4>
+          <ion-icon id="right" name="chevron-forward-outline"></ion-icon>
+        </div>
+        <!-- product slider part starts -->
+        <!-- product 1  -->
+        <div class="product_wrapper product_1_wrapper">
+          <h3>Choosen For You</h3>
+          <ion-icon id="left" name="chevron-back-outline"></ion-icon>
+          <div
+            class="product_caraousal product_1_caraousal"
+            id="product_1_caraousal_id"
+          >
+            <img src="" alt="" draggable="false" />
           </div>
-          <div>
-            <h4>Help</h4>
+          <ion-icon id="right" name="chevron-forward-outline"></ion-icon>
+        </div>
+        <!-- product 2 -->
+        <div class="product_wrapper product_2_wrapper">
+          <h3>Just Dropped</h3>
+          <ion-icon id="left" name="chevron-back-outline"></ion-icon>
+          <div
+            class="product_caraousal product_2_caraousal"
+            id="product_2_caraousal_id"
+          >
+            <img src="" alt="" draggable="false" />
           </div>
-          <div>
-            <h4>Region & Language</h4>
+          <ion-icon id="right" name="chevron-forward-outline"></ion-icon>
+        </div>
+        <div class="cards_div">
+          <div class="card1" style="background-color: rgb(253, 207, 197)">
+            <h3>Charlotte Tilbury's Greatest Hits</h3>
+            <p>Must-have makeup from a beauty icon.</p>
+            <p><a href="#">SHOP NOW</a></p>
+            <img
+              src="https://www.sephora.com/contentimages/2022-11-1-sc-sku-site-desktop-mweb-home-page-rwd-marketing-banner-launch-3-800x256-en-us-can.jpg?imwidth=400"
+              alt=""
+            />
           </div>
-          <div>
-            <h4>We Belong to Something Beautiful</h4>
+          <div class="card2" style="background-color: rgb(253, 168, 201)">
+            <h3>New Oribe Lust Gift Set</h3>
+            <p>Luxe hair for major hydration.</p>
+            <p><a href="#">SHOP NOW</a></p>
+            <img
+              src="https://www.sephora.com/contentimages/2022-11-8-oribe-holiday-sets-site-desktop-mweb-home-page-rwd-marketing-banner-800x256-en-us.jpg?imwidth=400"
+              alt=""
+            />
+          </div>
+          <div class="card3" style="background-color: rgb(173, 221, 241)">
+            <h3>Gift Sets under $15</h3>
+            <p>Prep for the holidays with must-nave presents.</p>
+            <p><a href="#">SHOP NOW</a></p>
+            <img
+              src="https://www.sephora.com/contentimages/2022-11-1-sc-sku-site-desktop-mweb-home-page-rwd-marketing-banner-launch-3-800x256-en-us-can.jpg?imwidth=400"
+              alt=""
+            />
           </div>
         </div>
-        <div class="media_connect_div"></div>
+        <!-- product 3 -->
+        <div class="product_wrapper product_3_wrapper">
+          <h3>Selling Fast</h3>
+          <ion-icon id="left" name="chevron-back-outline"></ion-icon>
+          <div
+            class="product_caraousal product_3_caraousal"
+            id="product_3_caraousal_id"
+          >
+            <img src="" alt="" draggable="false" />
+          </div>
+          <ion-icon id="right" name="chevron-forward-outline"></ion-icon>
+        </div>
+        <!-- product 4 -->
+        <div class="product_wrapper product_4_wrapper">
+          <h3>Beauty Insider Rewards</h3>
+          <ion-icon id="left" name="chevron-back-outline"></ion-icon>
+          <div
+            class="product_caraousal product_4_caraousal"
+            id="product_4_caraousal_id"
+          >
+            <img src="" alt="" draggable="false" />
+          </div>
+          <ion-icon id="right" name="chevron-forward-outline"></ion-icon>
+        </div>
+        <!-- product 5 -->
+        <div class="product_wrapper product_5_wrapper">
+          <h3>Beauty Offers</h3>
+          <ion-icon id="left" name="chevron-back-outline"></ion-icon>
+          <div
+            class="product_caraousal product_5_caraousal"
+            id="product_5_caraousal_id"
+          >
+            <img src="" alt="" draggable="false" />
+          </div>
+          <ion-icon id="right" name="chevron-forward-outline"></ion-icon>
+        </div>
       </div>
-    </footer>
+    </section>
+    <footer></footer>
   </body>
 </html>
+<script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
 <script type="module" src="./scripts/index.js"></script>
