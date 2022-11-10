@@ -1,0 +1,82 @@
+#upper{
+width: 100%;
+height:80px;
+border: 5px solid whitesmoke;
+}
+body{
+    margin: 0px;
+    padding:0px;
+}
+#upper img{
+width: 15%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+#middle{
+margin: 10px;
+    width: 80%;
+    border: 2px solid whitesmoke;
+    margin: auto;
+    height: 1000px;
+    display: flex;
+}
+#left{
+    width: 60%;
+    border: 2px solid whitesmoke;
+    margin: auto;
+    height: 1000px;
+
+}
+#right{
+    width: 30%;
+    border: 2px solid whitesmoke;
+    margin: auto;
+    height: 1000px;
+
+}
+#left h1{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+hr{
+
+    height: 1px;
+  background-color: black;
+}
+.check{
+margin: 20px;
+text-align: center;
+
+width:80%;
+height: 45px;
+border-radius: 15px;
+}
+h1,h2{
+    margin-left: 20px;
+}
+.btn{
+
+    margin: 20px;
+    width:35%;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.left{
+    margin-left: 110px;
+}
+#price{
+    margin-left: 130px;
+}
+.lef{
+    margin-left: 80px;
+}
+#pric{
+    margin-left: 140px;
+}
