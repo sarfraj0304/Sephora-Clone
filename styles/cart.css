@@ -1,0 +1,102 @@
+#main_div_cart{
+
+width: 90%;
+
+border: 2px solid black;
+margin: auto;
+height: auto;
+
+
+}
+
+
+#left_side_cart{
+
+    display: flex;
+width: 100%;
+border: 1px solid green;
+
+
+}
+#image_div{
+width:auto;
+border: 1px solid black;
+
+}
+#image_div>img{
+    width:150px
+    
+}
+#rest_div{
+    border: 1px solid black; 
+    margin: 20px;
+    width: 60%;
+
+}
+#quantity{
+
+
+}
+#rest_div>h4{
+   float: right;
+   margin-top: -80px;
+}
+.btn{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+.btn:hover{
+    color: rgb(23, 23, 180);
+    background-color: grey;
+}
+
+#right_cart{
+
+    width: 50%;
+    border: 1px solid red;
+    height: 200px;
+    margin-left: 10px;
+    height: auto;
+}
+#right_cart .bton{
+
+    margin: 0px 90px;
+text-align: center;
+height: 40px;
+width: 290px;
+font-size: 20px;
+color: white;
+background-color: rgba(197, 19, 19, 0.778);
+border: none;
+border-radius: 55px;
+}
+#right_cart .bton:hover{
+
+    background-color: red;
+}
+#right_cart .btoon{
+
+    margin: 10px 90px;
+text-align: center;
+height: 40px;
+width: 290px;
+/* font-size: 20px; */
+color: white;
+background-color: rgba(197, 19, 19, 0.778);
+border: none;
+border-radius: 55px;
+}
+#right_cart .btoon:hover{
+
+    background-color: red;
+}
+#right_cart .btoon img{
+width:100px;
+margin:auto;
+
+
+}
