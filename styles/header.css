@@ -92,20 +92,36 @@ nav > ul > li > a {
   width: 100%;
   transition: 0.5s;
   background-color: white;
+  z-index: 100;
 }
 nav > ul > li:hover .megamenu {
   opacity: 1;
   visibility: visible;
   top: 100%;
-  z-index: 1;
 }
 .megamenu_items {
   display: flex;
   justify-content: space-around;
   height: 100%;
+  border: 1px solid;
+  padding: 0 50px;
+}
+.megamenu_items > img {
+  width: 280px;
+  height: 280px;
+  margin: 25px;
+  cursor: pointer;
 }
 .megamenu_items > .items > p {
-  margin: 15px 0;
+  margin: 20px 20px;
+  line-height: 20px;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  white-space: normal;
+}
+.megamenu_items > .items > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1200px) {
