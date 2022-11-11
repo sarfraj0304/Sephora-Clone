@@ -1,7 +1,7 @@
 const navbar = () => {
   return `<div class="logo_search_container">
       <div class="logo_div">
-        <img src="https://i.ibb.co/JFZ53vq/sparkle-logo.png" alt="" />
+        <img id="logo_image" src="https://i.ibb.co/JFZ53vq/sparkle-logo.png" alt="" />
       </div>
       <div class="search_div">
         <input type="text" name="" id="search_items" placeholder="search" />

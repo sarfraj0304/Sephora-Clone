@@ -1,3 +1,9 @@
+const logo_image = document.getElementById("logo_image");
+logo_image.style.cursor = "pointer";
+logo_image.onclick = () => {
+  location.href = "./index.html";
+};
+
 // fetching and appending for brush category
 let fetchDataBrush = async () => {
   let res = await fetch("http://localhost:3000/brush");
