@@ -13,32 +13,28 @@ const getData = async () => {
 };
 
 const appendData = (data) => {
-  
+  document.getElementById("items").innerHTML = "";
   data.forEach((el) => {
-    
+    var div = document.createElement("div");
+    div.setAttribute("class", "item-card");
+    var img = document.createElement("img");
+    img.src = el.image;
 
-        
-      var div = document.createElement("div");
-      div.setAttribute("class", "item-card");
-      var img = document.createElement("img");
-      img.src = el.image;
+    var cName = document.createElement("h3");
+    cName.innerText = el.brandName;
 
-      var cName = document.createElement("h3");
-      cName.innerText = el.brandName;
+    var pName = document.createElement("p");
+    pName.innerText = el.productName;
 
-      var pName = document.createElement("p");
-      pName.innerText = el.productName;
+    var pPrice = document.createElement("h4");
+    pPrice.innerText = el.price;
 
-      var pPrice = document.createElement("h4");
-      pPrice.innerText = el.price;
-      
-      div.addEventListener("click", function () {
-        getdetails(el);
-      });
+    div.addEventListener("click", function () {
+      getdetails(el);
+    });
 
-      div.append(img, cName, pName, pPrice);
-      document.getElementById("items").append(div);
-    
+    div.append(img, cName, pName, pPrice);
+    document.getElementById("items").append(div);
   });
 };
 
@@ -87,5 +83,33 @@ const handle_filter = async (query, value) => {
   document.getElementById("items").innerHTML = null;
   let res = await fetch(`http://localhost:3000/lipstick?${query}=${value}`);
   let data = await res.json();
+  appendData(data);
+};
+// handle search
+// search_items
+let search_item = document.getElementById("search_items");
+search_item.onkeypress = (e) => {
+  if (e.key == "Enter") {
+    e.preventDefault();
+    let input_Data = search_item.value;
+    input_Data = input_Data.split("");
+    let convert = input_Data[0].toUpperCase();
+    let arr = [];
+    arr.push(convert);
+    for (let i = 1; i < input_Data.length; i++) {
+      arr.push(input_Data[i]);
+    }
+    input_Data = arr.join("");
+    // console.log(input_Data[0].toUpperCase());
+    search_products_data(input_Data);
+  }
+};
+
+const search_products_data = async (d) => {
+  let res = await fetch(`http://localhost:3000/all_products`);
+  let data = await res.json();
+  data = data.filter(({ productName }) => {
+    return productName.includes(d);
+  });
   appendData(data);
 };

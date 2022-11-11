@@ -207,6 +207,13 @@ lipstick.onclick = () => {
   lipstick.classList.add("link_active");
   getProductData("lipstick");
 };
+//brush products
+let brush = document.getElementById("brush_btn");
+brush.onclick = () => {
+  deactiveLinks(cat_btns);
+  brush.classList.add("link_active");
+  getProductData("brush");
+};
 
 // Handling Filter
 let filter_Prods = document.getElementById("filter_Prod");
