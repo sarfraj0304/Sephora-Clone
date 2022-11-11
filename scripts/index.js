@@ -118,6 +118,8 @@ let append_product_3_slide_data = (data) => {
 };
 const product_3_info_fun = (el) => {
   console.log(el);
+  localStorage.setItem("wind", JSON.stringify(el.id));
+  window.location.href = "detail.html";
 };
 
 fetch_image_slide_hair_data();
