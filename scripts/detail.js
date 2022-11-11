@@ -2,8 +2,7 @@ import { navbar } from "../components/navbar.js";
 
 const header = document.getElementById("header");
 header.innerHTML = navbar();
-
-var data = JSON.parse(localStorage.getItem("wind"));
+let data = JSON.parse(localStorage.getItem("wind"));
 
 const appendData = (data) => {
   let img = document.createElement("img");
@@ -21,23 +20,20 @@ const appendData = (data) => {
 
   var pPrice = document.createElement("h3");
   pPrice.innerText = data.price;
-  
+
   var rating = document.createElement("h4");
-  rating.innerText = ( "reviews("+data.reviews+ ")");
-  document.getElementById("page2").append(cName, pName, pPrice, des,rating);
+  rating.innerText = "reviews(" + data.reviews + ")";
+  document.getElementById("page2").append(cName, pName, pPrice, des, rating);
 };
 appendData(data);
 
 document.getElementById("btn").addEventListener("click", function () {
   add();
-
 });
 
-
+let basketProductsData = JSON.parse(localStorage.getItem("addToBasket")) || [];
 function add() {
-  
-
-  localStorage.setItem("Cart_Product",JSON.stringify(data));
-window.location.href="cart.html"
-  
+  basketProductsData.push(data);
+  localStorage.setItem("addToBasket", JSON.stringify(basketProductsData));
+  // location.reload();
 }
