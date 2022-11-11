@@ -536,3 +536,10 @@ fetch_image_slide_brush_data();
   caraousal.addEventListener("touchend", dragEnd);
 }
 // product slider parts ends
+
+// handle search
+// search_items
+let search_item = document.getElementById("search_items");
+search_item.onclick = () => {
+  location.href = "./skincare.html";
+};

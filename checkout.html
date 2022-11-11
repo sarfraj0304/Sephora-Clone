@@ -1,61 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkout</title>
-    <link rel="stylesheet" href="./styles/checkout.css">
-    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="./styles/checkout.css" />
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <div id="upper">
-        <img src="https://www.sephora.com/img/ufe/logo.svg" alt="" srcset="">
+      <img src="https://www.sephora.com/img/ufe/logo.svg" alt="" srcset="" />
     </div>
     <div id="middle">
+      <div id="left">
+        <h1>Checkout</h1>
+        <hr />
+        <h2>Shipping Address</h2>
 
-        <div id="left">
-            <h1>Checkout</h1>
-            <hr>
-            <h2>Shipping Address</h2>
+        <input
+          id="fname"
+          class="check"
+          type="text"
+          placeholder="First Name"
+          required
+        /><br />
 
-            <input id="fname" class="check" type="text" placeholder="First Name" required><br>
+        <input
+          id="lname"
+          class="check"
+          type="text"
+          placeholder="last Name"
+          required
+        />
+        <br />
+        <input
+          id="number"
+          class="check"
+          type="number"
+          placeholder="Mobile Number"
+          required
+        />
+        <br />
 
-            <input id="lname" class="check" type="text" placeholder="last Name" required> <br>
-            <input id="number" class="check" type="number" placeholder="Mobile Number" required> <br>
+        <input
+          id="address"
+          class="check"
+          type="text"
+          placeholder="Address"
+          required
+        />
+        <br />
 
-            <input id="address" class="check" type="text" placeholder="Address" required> <br>
+        <button id="bton" class="btn">Save Details</button>
+      </div>
 
-            <button id="bton" class="btn">Save & Continue</button>
-        </div>
+      <div id="right">
+        <p>Merchandise Subtotal <b id="price" class="left"></b></p>
+        <p>
+          Shipping & Handling <i class="fa-solid fa-circle-info"></i
+          ><b class="left">FREE</b>
+        </p>
+        <p>
+          Estimated Tax & Other Fees <i class="fa-solid fa-circle-info"></i>
+          <b class="lef">$-.--</b>
+        </p>
+        <hr />
+        <h3><b>Estimated Total</b> <b id="pric" class="left"></b></h3>
+        <h3><b>Discount Price</b> <b id="dscnt" class="left"></b></h3>
+        <hr />
+        <h3><b>Actual Price</b> <b id="actual" class="left"></b></h3>
+        <p>
+          or 4 payments of $42.00 with <br />
+          <b>Klarna </b> or
+          <b>afterpay <i class="fa-solid fa-circle-info"></i></b>
+        </p>
+        .
 
-        <div id="right">
-            <p>Merchandise Subtotal <b id="price" class="left"></b></p>
-            <p>Shipping & Handling <i class="fa-solid fa-circle-info"></i><b class="left">FREE</b> </p>
-            <p>Estimated Tax & Other Fees <i class="fa-solid fa-circle-info"></i> <b class="lef">$-.--</b> </p>
-            <hr>
-            <h3><b>Estimated Total</b> <b id="pric" class="left"></b></h3>
-            <h3><b>Discount Price</b> <b id="dscnt" class="left"></b></h3>
-            <hr>
-            <h3><b>Actual Price</b> <b id="actual" class="left"></b></h3>
-            <p>or 4 payments of $42.00 with <br> <b>Klarna </b> or <b>afterpay <i
-                        class="fa-solid fa-circle-info"></i></b> </p>.
+        <input id="promo" type="text" placeholder="Enter Promo Code" />
+        <button id="apl">Apply</button>
 
-            <input id="promo" type="text" placeholder="Enter Promo Code">
-            <button id="apl">Apply</button>
+        <a href="payment.html">
+          <button class="butn">
+            Pay Online <i class="fa-regular fa-credit-card"></i></button
+        ></a>
+        <button class="butn" id="btn">
+          Pay Cash
 
-
-            <a href="payment.html">
-                <button class="butn"> Pay Online <i class="fa-regular fa-credit-card"></i></button></a>
-            <button class="butn" id="btn"> Pay Cash
-
-
-                <i class="fa-solid fa-wallet"></i></button>
-        </div>
+          <i class="fa-solid fa-wallet"></i>
+        </button>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
 <script src="./scripts/checkout.js"></script>

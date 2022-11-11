@@ -14,6 +14,7 @@ const getData = async () => {
 
 const appendData = (data) => {
   console.log(data);
+  document.getElementById("items").innerHTML = "";
   data.forEach((el) => {
     if (el.active == true) {
       var div = document.createElement("div");
@@ -84,5 +85,33 @@ const handle_filter = async (query, value) => {
   document.getElementById("items").innerHTML = null;
   let res = await fetch(`http://localhost:3000/hair?${query}=${value}`);
   let data = await res.json();
+  appendData(data);
+};
+// handle search
+// search_items
+let search_item = document.getElementById("search_items");
+search_item.onkeypress = (e) => {
+  if (e.key == "Enter") {
+    e.preventDefault();
+    let input_Data = search_item.value;
+    input_Data = input_Data.split("");
+    let convert = input_Data[0].toUpperCase();
+    let arr = [];
+    arr.push(convert);
+    for (let i = 1; i < input_Data.length; i++) {
+      arr.push(input_Data[i]);
+    }
+    input_Data = arr.join("");
+    // console.log(input_Data[0].toUpperCase());
+    search_products_data(input_Data);
+  }
+};
+
+const search_products_data = async (d) => {
+  let res = await fetch(`http://localhost:3000/all_products`);
+  let data = await res.json();
+  data = data.filter(({ productName }) => {
+    return productName.includes(d);
+  });
   appendData(data);
 };
