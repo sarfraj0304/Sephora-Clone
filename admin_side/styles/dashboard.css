@@ -75,6 +75,49 @@ body {
   height: 20px;
   padding: 20px;
   border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+#admin_details {
+  /* width: 150px; */
+  /* height: 150px; */
+  background-color: white;
+  position: absolute;
+  top: 50px;
+  left: -230px;
+  display: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(56, 56, 56);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* #admin_icon_div:hover #admin_details {
+  display: block;
+} */
+
+#admin_email_div {
+  display: flex;
+  margin-bottom: 10px;
+  /* justify-content: space-between; */
+}
+
+#admin_logout_div {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+#admin_logout_div:hover {
+  color: rgb(246, 33, 33);
+}
+
+#admin_email_div > i {
+  padding: 2px 10px 2px 2px;
+}
+
+#admin_logout_div > i {
+  padding: 2px 10px 2px 2px;
 }
 
 #rhs_body {
@@ -160,7 +203,7 @@ body {
   margin-right: 7px;
 }
 
-#products_page .action_div {
+.action_div {
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
@@ -181,10 +224,6 @@ table thead tr {
   height: 40px;
   border-bottom: 1px solid #e5e7eb;
   border-top: 1px solid #e5e7eb;
-}
-
-table thead tr th {
-  /* border: 1px solid red; */
 }
 
 td,
@@ -228,6 +267,26 @@ table tbody tr {
   height: 70px;
   border-bottom: 1px solid #e5e7eb;
   border-top: 1px solid #e5e7eb;
+}
+
+/* customer Page table styling */
+#customers_page > table thead tr th:nth-child(1),
+#customers_page > table thead tr th:nth-child(2),
+#customers_page > table thead tr th:nth-child(3),
+#customers_page > table thead tr th:nth-child(5),
+#customers_page > table thead tr th:nth-child(6) {
+  width: 15%;
+  text-align: center;
+}
+#customers_page > table thead tr th:nth-child(4) {
+  width: 25%;
+}
+#customers_page > table tbody tr {
+  height: 30px;
+  text-align: center;
+}
+#customers_page > h4 {
+  margin-bottom: 30px;
 }
 
 .edit_icon {

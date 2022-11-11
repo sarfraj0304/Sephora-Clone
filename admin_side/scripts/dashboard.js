@@ -200,6 +200,13 @@ hair.onclick = () => {
   hair.classList.add("link_active");
   getProductData("hair");
 };
+//lipstick products
+let lipstick = document.getElementById("lip_btn");
+lipstick.onclick = () => {
+  deactiveLinks(cat_btns);
+  lipstick.classList.add("link_active");
+  getProductData("lipstick");
+};
 
 // Handling Filter
 let filter_Prods = document.getElementById("filter_Prod");
@@ -217,6 +224,7 @@ filter_Prods.onchange = () => {
     handle_filter("price_gte", 1999);
   }
 };
+
 // Handling Filter main function
 const handle_filter = async (query, value) => {
   let active_cat = localStorage.getItem("active_cat");
@@ -246,3 +254,31 @@ const sort_handle = async (query, value) => {
   let data = await res.json();
   appendProducts(data, active_cat);
 };
+
+// login and logout function
+let admin_login = JSON.parse(sessionStorage.getItem("Admin-login"));
+let Admin_icon_div = document.getElementById("admin_icon_div");
+let Admin_details = document.getElementById("admin_details");
+Admin_icon_div.onclick = () => {
+  if (Admin_details.style.display == "none") {
+    Admin_details.style.display = "block";
+  } else {
+    Admin_details.style.display = "none";
+  }
+};
+document.addEventListener("click", function (event) {
+  if (event.target == Admin_icon_div) {
+    return;
+  }
+  Admin_details.style.display = "none";
+});
+
+let admin_email_display = document.querySelector("#admin_email_div>p");
+admin_email_display.innerText = admin_login[0];
+
+let admin_logout = document.querySelector("#admin_logout_div>p");
+admin_logout.onclick = () => {
+  sessionStorage.removeItem("Admin-login");
+  location.href = "../admin-side-login/Admin-signin.html";
+};
+console.log(admin_login[0]);
