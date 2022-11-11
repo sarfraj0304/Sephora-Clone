@@ -21,7 +21,10 @@ const appendData = (data) => {
 
   var pPrice = document.createElement("h3");
   pPrice.innerText = data.price;
-  document.getElementById("page2").append(cName, pName, pPrice, des);
+  
+  var rating = document.createElement("h4");
+  rating.innerText = ( "reviews("+data.reviews+ ")");
+  document.getElementById("page2").append(cName, pName, pPrice, des,rating);
 };
 appendData(data);
 
