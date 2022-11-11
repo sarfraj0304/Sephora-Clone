@@ -37,8 +37,11 @@ let append_product_1_slide_data = (data) => {
 };
 
 const product_1_info_fun = (el) => {
-  console.log(el);
-};
+  
+    localStorage.setItem("wind",JSON.stringify(el))
+    window.location.href= "detail.html"
+   }
+
 
 fetch_image_slide_skincare_data();
 // product 1 data fetching ends
