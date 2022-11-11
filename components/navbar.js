@@ -34,73 +34,73 @@ const navbar = () => {
       <nav>
         <ul>
           <li>
-            <a href="" id="new_id">New</a>
+            <a href="./fragrance.html" id="new_id">New</a>
             <div class="megamenu">
               <div class="megamenu_items" id="new_megamenu_items"></div>
             </div>
           </li>
           <li>
-            <a href="">Brands</a>
+            <a href="./lipstick.html">Brands</a>
             <div class="megamenu">
               <div class="megamenu_items" id="brands_megamenu_items"></div>
             </div>
           </li>
           <li>
-            <a href="">Skincare</a>
+            <a href="./skincare.html">Skincare</a>
             <div class="megamenu">
               <div class="megamenu_items" id="skincare_megamenu_items"></div>
             </div>
           </li>
           <li>
-            <a href="">Hair</a>
+            <a href="./hair.html">Hair</a>
             <div class="megamenu">
               <div class="megamenu_items" id="hair_megamenu_items"></div>
             </div>
           </li>
           <li>
-            <a href="">Fragrance</a>
+            <a href="./fragrance.html">Fragrance</a>
             <div class="megamenu">
               <div class="megamenu_items" id="fragrance_megamenu_items"></div>
             </div>
           </li>
           <li>
-            <a href="">Makeup</a>
+            <a href="./lipstick.html">Makeup</a>
             <div class="megamenu">
               <div class="megamenu_items" id="makeup_megamenu_items"></div>
             </div>
           </li>
           <li>
-            <a href="">Tools & Brushes</a>
+            <a href="./skincare.html">Tools & Brushes</a>
             <div class="megamenu">
               <div class="megamenu_items" id="tools_megamenu_items"></div>
             </div>
           </li>
           <li>
-            <a href="">Bath & Body</a>
+            <a href="./hair.html">Bath & Body</a>
             <div class="megamenu">
               <div class="megamenu_items" id="bath_megamenu_items"></div>
             </div>
           </li>
           <li>
-            <a href="">Mini Size</a>
+            <a href="./fragrance.html">Mini Size</a>
             <div class="megamenu">
               <div class="megamenu_items" id="mini_megamenu_items"></div>
             </div>
           </li>
           <li>
-            <a href="">Gifts</a>
+            <a href="./lipstick.html">Gifts</a>
             <div class="megamenu">
               <div class="megamenu_items" id="gifts_megamenu_items"></div>
             </div>
           </li>
           <li>
-            <a href="">Beauty Under $20</a>
+            <a href="./skincare.html">Beauty Under $20</a>
             <div class="megamenu">
               <div class="megamenu_items" id="beauty_megamenu_items"></div>
             </div>
           </li>
           <li>
-            <a href="">Sale & Offers</a>
+            <a href="./hair.html">Sale & Offers</a>
             <div class="megamenu">
               <div class="megamenu_items" id="sale_megamenu_items"></div>
             </div>

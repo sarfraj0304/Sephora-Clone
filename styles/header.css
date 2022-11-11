@@ -103,8 +103,8 @@ nav > ul > li:hover .megamenu {
   display: flex;
   justify-content: space-around;
   height: 100%;
-  border: 1px solid;
   padding: 0 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .megamenu_items > img {
   width: 280px;
