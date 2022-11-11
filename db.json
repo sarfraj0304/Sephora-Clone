@@ -1507,6 +1507,7 @@
   ],
   "lipstick": [
     {
+      "active": true,
       "id": "P281411",
       "productName": "Cream Lip Stain Liquid Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s1296060-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -1518,6 +1519,7 @@
       "description": "SEPHORA COLLECTION - Cream Lip Stain Liquid Lipstick"
     },
     {
+      "active": true,
       "id": "P433530",
       "productName": "Matte Revolution Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2486363-main-Lhero.jpg",
@@ -1529,6 +1531,7 @@
       "description": "Charlotte Tilbury - Matte Revolution Lipstick"
     },
     {
+      "active": true,
       "id": "P501583",
       "productName": "Powermatte Long-Lasting Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2599108-main-Lhero.jpg",
@@ -1540,6 +1543,7 @@
       "description": "NARS - Powermatte Long-Lasting Lipstick"
     },
     {
+      "active": true,
       "id": "P501542",
       "productName": "Mini Rouge Dior Lipstick Set",
       "image": "https://www.sephora.com/productimages/sku/s2595098-main-Lhero.jpg",
@@ -1551,6 +1555,7 @@
       "description": "Dior - Mini Rouge Dior Lipstick Set"
     },
     {
+      "active": true,
       "id": "P122751",
       "productName": "Almost Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s70680-main-Lhero.jpg",
@@ -1562,6 +1567,7 @@
       "description": "CLINIQUE - Almost Lipstick"
     },
     {
+      "active": true,
       "id": "P481969",
       "productName": "Dior Addict Refillable Shine Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2509263-main-Lhero.jpg",
@@ -1573,6 +1579,7 @@
       "description": "Dior - Dior Addict Refillable Shine Lipstick"
     },
     {
+      "active": true,
       "id": "P500997",
       "productName": "Rouge Dior Forever Transfer-Proof Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2595007-main-Lhero.jpg",
@@ -1584,6 +1591,7 @@
       "description": "Dior - Rouge Dior Forever Transfer-Proof Lipstick"
     },
     {
+      "active": true,
       "id": "P481403",
       "productName": "Signature Lip Lightweight Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2512770-main-Lhero.jpg?pb=2020-03-sephora-clean-2019",
@@ -1595,6 +1603,7 @@
       "description": "MERIT - Signature Lip Lightweight Lipstick"
     },
     {
+      "active": true,
       "id": "P472977",
       "productName": "Rouge Dior Forever Liquid Transfer-Proof Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2571479-main-Lhero.jpg",
@@ -1606,6 +1615,7 @@
       "description": "Dior - Rouge Dior Forever Liquid Transfer-Proof Lipstick"
     },
     {
+      "active": true,
       "id": "P454508",
       "productName": "Matte Revolution Lipstick- Pillow Talk Collection",
       "image": "https://www.sephora.com/productimages/sku/s2309383-main-Lhero.jpg",
@@ -1617,6 +1627,7 @@
       "description": "Charlotte Tilbury - Matte Revolution Lipstick- Pillow Talk Collection"
     },
     {
+      "active": true,
       "id": "P467760",
       "productName": "Rouge Dior Refillable Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2509222-main-Lhero.jpg",
@@ -1628,6 +1639,7 @@
       "description": "Dior - Rouge Dior Refillable Lipstick"
     },
     {
+      "active": true,
       "id": "P377710",
       "productName": "Rouge Volupté Shine Lipstick Balm",
       "image": "https://www.sephora.com/productimages/sku/s2511228-main-Lhero.jpg",
@@ -1639,6 +1651,7 @@
       "description": "Yves Saint Laurent - Rouge Volupté Shine Lipstick Balm"
     },
     {
+      "active": true,
       "id": "P424915",
       "productName": "#LIPSTORIES Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2148385-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -1650,6 +1663,7 @@
       "description": "SEPHORA COLLECTION - #LIPSTORIES Lipstick"
     },
     {
+      "active": true,
       "id": "P500637",
       "productName": "Kind Words Matte Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2589422-main-Lhero.jpg",
@@ -1661,6 +1675,7 @@
       "description": "Rare Beauty by Selena Gomez - Kind Words Matte Lipstick"
     },
     {
+      "active": true,
       "id": "P503094",
       "productName": "Rouge Dior Minaudière - Limited Edition Clutch and Lipstick Set",
       "image": "https://www.sephora.com/productimages/sku/s2595155-main-Lhero.jpg",
@@ -1672,6 +1687,7 @@
       "description": "Dior - Rouge Dior Minaudière - Limited Edition Clutch and Lipstick Set"
     },
     {
+      "active": true,
       "id": "P471221",
       "productName": "Lip Power Long-Lasting Satin Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2571354-main-Lhero.jpg?pb=allure-2022-clean-badge",
@@ -1683,6 +1699,7 @@
       "description": "Armani Beauty - Lip Power Long-Lasting Satin Lipstick"
     },
     {
+      "active": true,
       "id": "P468347",
       "productName": "Hyaluronic Happikiss Lipstick Balm",
       "image": "https://www.sephora.com/productimages/sku/s2420503-main-Lhero.jpg",
@@ -1694,6 +1711,7 @@
       "description": "Charlotte Tilbury - Hyaluronic Happikiss Lipstick Balm"
     },
     {
+      "active": true,
       "id": "P78834",
       "productName": "Velvet Matte Lipstick Pencil",
       "image": "https://www.sephora.com/productimages/sku/s1900083-main-Lhero.jpg",
@@ -1705,6 +1723,7 @@
       "description": "NARS - Velvet Matte Lipstick Pencil"
     },
     {
+      "active": true,
       "id": "P502342",
       "productName": "Mini Rouge Pur Couture Satin Lipstick Trio",
       "image": "https://www.sephora.com/productimages/sku/s2630028-main-Lhero.jpg",
@@ -1716,6 +1735,7 @@
       "description": "Yves Saint Laurent - Mini Rouge Pur Couture Satin Lipstick Trio"
     },
     {
+      "active": true,
       "id": "P443336",
       "productName": "Rouge Lacquer Long-Lasting Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2066207-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -1727,6 +1747,7 @@
       "description": "SEPHORA COLLECTION - Rouge Lacquer Long-Lasting Lipstick"
     },
     {
+      "active": true,
       "id": "P416057",
       "productName": "Lip Color Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2490191-main-Lhero.jpg",
@@ -1738,6 +1759,7 @@
       "description": "TOM FORD - Lip Color Lipstick"
     },
     {
+      "active": true,
       "id": "P479843",
       "productName": "Liquid Matte Ultra-Comfort Transfer-proof Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2548840-main-Lhero.jpg",
@@ -1749,6 +1771,7 @@
       "description": "HUDA BEAUTY - Liquid Matte Ultra-Comfort Transfer-proof Lipstick"
     },
     {
+      "active": true,
       "id": "P448502",
       "productName": "Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2245751-main-Lhero.jpg",
@@ -1760,6 +1783,7 @@
       "description": "NARS - Lipstick"
     },
     {
+      "active": true,
       "id": "P441880",
       "productName": "Power Bullet Matte Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2198562-main-Lhero.jpg",
@@ -1771,6 +1795,7 @@
       "description": "HUDA BEAUTY - Power Bullet Matte Lipstick"
     },
     {
+      "active": true,
       "id": "P87987897",
       "productName": "Lip Soufflé Matte Cream Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2362267-main-Lhero.jpg",
@@ -1782,6 +1807,7 @@
       "description": "Rare Beauty by Selena Gomez - Lip Soufflé Matte Cream Lipstick"
     },
     {
+      "active": true,
       "id": "P471239",
       "productName": "Glow & Care Shine Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2587376-main-Lhero.jpg",
@@ -1793,6 +1819,7 @@
       "description": "Gucci - Glow & Care Shine Lipstick"
     },
     {
+      "active": true,
       "id": "P421813",
       "productName": "MatteTrance™ Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2053924-main-Lhero.jpg",
@@ -1804,6 +1831,7 @@
       "description": "PAT McGRATH LABS - MatteTrance™ Lipstick"
     },
     {
+      "active": true,
       "id": "P434100",
       "productName": "Hot Lips Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2116895-main-Lhero.jpg",
@@ -1815,6 +1843,7 @@
       "description": "Charlotte Tilbury - Hot Lips Lipstick"
     },
     {
+      "active": true,
       "id": "P474948",
       "productName": "Le Rouge Sheer Velvet Matte Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2484715-main-Lhero.jpg",
@@ -1826,6 +1855,7 @@
       "description": "Givenchy - Le Rouge Sheer Velvet Matte Lipstick"
     },
     {
+      "active": true,
       "id": "P474872",
       "productName": "The Slim Velvet Radical Matte Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2510246-main-Lhero.jpg",
@@ -1837,6 +1867,7 @@
       "description": "Yves Saint Laurent - The Slim Velvet Radical Matte Lipstick"
     },
     {
+      "active": true,
       "id": "P453273",
       "productName": "Velvet Matte Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2310126-main-Lhero.jpg",
@@ -1848,6 +1879,7 @@
       "description": "Gucci - Velvet Matte Lipstick"
     },
     {
+      "active": true,
       "id": "P501588",
       "productName": "Rouge Pur Couture The Bold High Pigment Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2597805-main-Lhero.jpg",
@@ -1859,6 +1891,7 @@
       "description": "Yves Saint Laurent - Rouge Pur Couture The Bold High Pigment Lipstick"
     },
     {
+      "active": true,
       "id": "P483435",
       "productName": "Dior Addict Lipstick Case",
       "image": "https://www.sephora.com/productimages/sku/s2585305-main-Lhero.jpg",
@@ -1870,6 +1903,7 @@
       "description": "Dior - Dior Addict Lipstick Case"
     },
     {
+      "active": true,
       "id": "P501592",
       "productName": "Everlasting Hyperlight Vegan Transfer-Proof Liquid Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2599348-main-Lhero.jpg",
@@ -1881,6 +1915,7 @@
       "description": "KVD Beauty - Everlasting Hyperlight Vegan Transfer-Proof Liquid Lipstick"
     },
     {
+      "active": true,
       "id": "P467139",
       "productName": "Astrology Lip Stories Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2364479-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -1892,6 +1927,7 @@
       "description": "SEPHORA COLLECTION - Astrology Lip Stories Lipstick"
     },
     {
+      "active": true,
       "id": "P475919",
       "productName": "Matte Revolution Lipstick - Super Nudes Collection",
       "image": "https://www.sephora.com/productimages/sku/s2486348-main-Lhero.jpg",
@@ -1903,6 +1939,7 @@
       "description": "Charlotte Tilbury - Matte Revolution Lipstick - Super Nudes Collection"
     },
     {
+      "active": true,
       "id": "P474358",
       "productName": "Air Matte Liquid Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2490902-main-Lhero.jpg",
@@ -1914,6 +1951,7 @@
       "description": "NARS - Air Matte Liquid Lipstick"
     },
     {
+      "active": true,
       "id": "P483630",
       "productName": "Dior Addict Refillable Couture Lipstick Case",
       "image": "https://www.sephora.com/productimages/sku/s2585305-main-Lhero.jpg",
@@ -1925,6 +1963,7 @@
       "description": "Dior - Dior Addict Refillable Couture Lipstick Case"
     },
     {
+      "active": true,
       "id": "P477837",
       "productName": "Ultra Suede® Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2502433-main-Lhero.jpg",
@@ -1936,6 +1975,7 @@
       "description": "MAKEUP BY MARIO - Ultra Suede® Lipstick"
     },
     {
+      "active": true,
       "id": "P431511",
       "productName": "L'Absolu Lacquer Long-Lasting Liquid Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2067437-main-Lhero.jpg",
@@ -1947,6 +1987,7 @@
       "description": "Lancôme - L'Absolu Lacquer Long-Lasting Liquid Lipstick"
     },
     {
+      "active": true,
       "id": "P67339785",
       "productName": "Slip Shine Sheer Shiny Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2363000-main-Lhero.jpg",
@@ -1958,6 +1999,7 @@
       "description": "Fenty Beauty by Rihanna - Slip Shine Sheer Shiny Lipstick"
     },
     {
+      "active": true,
       "id": "P501496",
       "productName": "Satin Hydrating Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2564474-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -1969,6 +2011,7 @@
       "description": "SEPHORA COLLECTION - Satin Hydrating Lipstick"
     },
     {
+      "active": true,
       "id": "P433531",
       "productName": "K.I.S.S.I.N.G Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2432854-main-Lhero.jpg",
@@ -1980,6 +2023,7 @@
       "description": "Charlotte Tilbury - K.I.S.S.I.N.G Lipstick"
     },
     {
+      "active": true,
       "id": "P480576",
       "productName": "Matte & Satin Velvet Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2519379-main-Lhero.jpg",
@@ -1991,6 +2035,7 @@
       "description": "Anastasia Beverly Hills - Matte & Satin Velvet Lipstick"
     },
     {
+      "active": true,
       "id": "P446609",
       "productName": "Hot Lips Lipstick 2",
       "image": "https://www.sephora.com/productimages/sku/s2244564-main-Lhero.jpg",
@@ -2002,6 +2047,7 @@
       "description": "Charlotte Tilbury - Hot Lips Lipstick 2"
     },
     {
+      "active": true,
       "id": "P471244",
       "productName": "Power Bullet Cream Glow Hydrating Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2419711-main-Lhero.jpg",
@@ -2013,6 +2059,7 @@
       "description": "HUDA BEAUTY - Power Bullet Cream Glow Hydrating Lipstick"
     },
     {
+      "active": true,
       "id": "P500284",
       "productName": "Le Monster Lip Crayon Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s2572238-main-Lhero.jpg?pb=2020-03-sephora-clean-2019",
@@ -2024,6 +2071,7 @@
       "description": "HAUS LABS BY LADY GAGA - Le Monster Lip Crayon Lipstick"
     },
     {
+      "active": true,
       "id": "P405231",
       "productName": "Rouge Interdit Vinyl Color Enhancing Lipstick",
       "image": "https://www.sephora.com/productimages/sku/s1797562-main-Lhero.jpg",
@@ -2035,6 +2083,7 @@
       "description": "Givenchy - Rouge Interdit Vinyl Color Enhancing Lipstick"
     },
     {
+      "active": true,
       "id": "P419605",
       "productName": "Rouge Interdit Vinyl Color Enhancing Lipstick - 16 Noir Revelateur",
       "image": "https://www.sephora.com/productimages/sku/s1797562-main-Lhero.jpg",
@@ -2046,6 +2095,7 @@
       "description": "Givenchy - Rouge Interdit Vinyl Color Enhancing Lipstick - 16 Noir Revelateur"
     },
     {
+      "active": true,
       "id": "P501451",
       "productName": "Lip Blur Soft-Matte Hydrating Lipstick with Hyaluronic Acid",
       "image": "https://www.sephora.com/productimages/sku/s2609824-main-Lhero.jpg?pb=clean-planet-positive-badge-2021",
@@ -2059,6 +2109,7 @@
   ],
   "brush": [
     {
+      "active": true,
       "id": "P420019",
       "productName": "PRO Foundation Brush #70",
       "image": "https://www.sephora.com/productimages/sku/s2290039-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2070,6 +2121,7 @@
       "description": "SEPHORA COLLECTION - PRO Foundation Brush #70"
     },
     {
+      "active": true,
       "id": "P420016",
       "productName": "PRO Powder Brush #50",
       "image": "https://www.sephora.com/productimages/sku/s2290070-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2081,6 +2133,7 @@
       "description": "SEPHORA COLLECTION - PRO Powder Brush #50"
     },
     {
+      "active": true,
       "id": "P313012",
       "productName": "PRO Foundation Brush #56",
       "image": "https://www.sephora.com/productimages/sku/s2290526-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2092,6 +2145,7 @@
       "description": "SEPHORA COLLECTION - PRO Foundation Brush #56"
     },
     {
+      "active": true,
       "id": "P469063",
       "productName": "Deluxe Brush Set",
       "image": "https://www.sephora.com/productimages/sku/s2398022-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2103,6 +2157,7 @@
       "description": "SEPHORA COLLECTION - Deluxe Brush Set"
     },
     {
+      "active": true,
       "id": "P501339",
       "productName": "Ready to Roll Brush Set",
       "image": "https://www.sephora.com/productimages/sku/s2563757-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2114,6 +2169,7 @@
       "description": "SEPHORA COLLECTION - Ready to Roll Brush Set"
     },
     {
+      "active": true,
       "id": "P469055",
       "productName": "Complete Brush Set",
       "image": "https://www.sephora.com/productimages/sku/s2398014-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2125,6 +2181,7 @@
       "description": "SEPHORA COLLECTION - Complete Brush Set"
     },
     {
+      "active": true,
       "id": "P469079",
       "productName": "Essential Eye Brush Set",
       "image": "https://www.sephora.com/productimages/sku/s2398006-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2136,6 +2193,7 @@
       "description": "SEPHORA COLLECTION - Essential Eye Brush Set"
     },
     {
+      "active": true,
       "id": "P501363",
       "productName": "PRO 8 Piece Brush Set",
       "image": "https://www.sephora.com/productimages/sku/s2563948-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2147,6 +2205,7 @@
       "description": "SEPHORA COLLECTION - PRO 8 Piece Brush Set"
     },
     {
+      "active": true,
       "id": "P501727",
       "productName": "The Half Shot Small Round Blow Dryer Brush",
       "image": "https://www.sephora.com/productimages/sku/s2592186-main-Lhero.jpg",
@@ -2158,6 +2217,7 @@
       "description": "Drybar - The Half Shot Small Round Blow Dryer Brush"
     },
     {
+      "active": true,
       "id": "P503195",
       "productName": "Platinum+ Styler - 1\" Flat Iron Gift Set with Paddle Brush & Heat Resistant Bag",
       "image": "https://www.sephora.com/productimages/sku/s2592855-main-Lhero.jpg",
@@ -2169,6 +2229,7 @@
       "description": "ghd - Platinum+ Styler - 1\" Flat Iron Gift Set with Paddle Brush & Heat Resistant Bag"
     },
     {
+      "active": true,
       "id": "P455648",
       "productName": "PRO Bronzer Brush #80",
       "image": "https://www.sephora.com/productimages/sku/s2290187-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2180,6 +2241,7 @@
       "description": "SEPHORA COLLECTION - PRO Bronzer Brush #80"
     },
     {
+      "active": true,
       "id": "P455653",
       "productName": "PRO Contour Brush #78",
       "image": "https://www.sephora.com/productimages/sku/s2289999-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2191,6 +2253,7 @@
       "description": "SEPHORA COLLECTION - PRO Contour Brush #78"
     },
     {
+      "active": true,
       "id": "P313020",
       "productName": "PRO Concealer Brush #57",
       "image": "https://www.sephora.com/productimages/sku/s2290260-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2202,6 +2265,7 @@
       "description": "SEPHORA COLLECTION - PRO Concealer Brush #57"
     },
     {
+      "active": true,
       "id": "P390961",
       "productName": "Makeup Brush Cleaner",
       "image": "https://www.sephora.com/productimages/sku/s1662154-main-Lhero.jpg",
@@ -2213,6 +2277,7 @@
       "description": "Cinema Secrets - Makeup Brush Cleaner"
     },
     {
+      "active": true,
       "id": "P417913",
       "productName": "PRO Concealer Brush #71",
       "image": "https://www.sephora.com/productimages/sku/s2290278-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2224,6 +2289,7 @@
       "description": "SEPHORA COLLECTION - PRO Concealer Brush #71"
     },
     {
+      "active": true,
       "id": "P405521",
       "productName": "PRO Blush Brush #93",
       "image": "https://www.sephora.com/productimages/sku/s2290237-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2235,6 +2301,7 @@
       "description": "SEPHORA COLLECTION - PRO Blush Brush #93"
     },
     {
+      "active": true,
       "id": "P455650",
       "productName": "PRO Blush Brush #96",
       "image": "https://www.sephora.com/productimages/sku/s2290203-main-Lhero.jpg",
@@ -2246,6 +2313,7 @@
       "description": "SEPHORA COLLECTION - PRO Blush Brush #96"
     },
     {
+      "active": true,
       "id": "P474097",
       "productName": "Mini PRO Foundation Brush #70.5",
       "image": "https://www.sephora.com/productimages/sku/s2448587-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2257,6 +2325,7 @@
       "description": "SEPHORA COLLECTION - Mini PRO Foundation Brush #70.5"
     },
     {
+      "active": true,
       "id": "P303302",
       "productName": "Long Lasting Eyeliner High Precision Brush",
       "image": "https://www.sephora.com/productimages/sku/s1370766-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2268,6 +2337,7 @@
       "description": "SEPHORA COLLECTION - Long Lasting Eyeliner High Precision Brush"
     },
     {
+      "active": true,
       "id": "P04141879",
       "productName": "Liquid Touch Foundation Brush",
       "image": "https://www.sephora.com/productimages/sku/s2362408-main-Lhero.jpg",
@@ -2279,6 +2349,7 @@
       "description": "Rare Beauty by Selena Gomez - Liquid Touch Foundation Brush"
     },
     {
+      "active": true,
       "id": "P17484987",
       "productName": "Liquid Touch Concealer Brush",
       "image": "https://www.sephora.com/productimages/sku/s2362424-main-Lhero.jpg",
@@ -2290,6 +2361,7 @@
       "description": "Rare Beauty by Selena Gomez - Liquid Touch Concealer Brush"
     },
     {
+      "active": true,
       "id": "P477244",
       "productName": "AireBrush Duo Interchangeable Hot Air Blow Dry Brush",
       "image": "https://www.sephora.com/productimages/sku/s2505436-main-Lhero.jpg",
@@ -2301,6 +2373,7 @@
       "description": "T3 - AireBrush Duo Interchangeable Hot Air Blow Dry Brush"
     },
     {
+      "active": true,
       "id": "P468697",
       "productName": "Brush No. 1 Tapered Blending Brush",
       "image": "https://www.sephora.com/productimages/sku/s2426708-main-Lhero.jpg",
@@ -2312,6 +2385,7 @@
       "description": "MERIT - Brush No. 1 Tapered Blending Brush"
     },
     {
+      "active": true,
       "id": "P503656",
       "productName": "Mini Nude Eyeshadow Kit - Mini Nude Eyeshadow Palette & Eyeshadow Brush",
       "image": "https://www.sephora.com/productimages/sku/s2625747-main-Lhero.jpg",
@@ -2323,6 +2397,7 @@
       "description": "Natasha Denona - Mini Nude Eyeshadow Kit - Mini Nude Eyeshadow Palette & Eyeshadow Brush"
     },
     {
+      "active": true,
       "id": "P453282",
       "productName": "The Double Shot Blow-Dryer Brush",
       "image": "https://www.sephora.com/productimages/sku/s2314680-main-Lhero.jpg",
@@ -2334,6 +2409,7 @@
       "description": "Drybar - The Double Shot Blow-Dryer Brush"
     },
     {
+      "active": true,
       "id": "P404041",
       "productName": "PRO Foundation Brush #47",
       "image": "https://www.sephora.com/productimages/sku/s2290294-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2345,6 +2421,7 @@
       "description": "SEPHORA COLLECTION - PRO Foundation Brush #47"
     },
     {
+      "active": true,
       "id": "P460000",
       "productName": "Hair Blow Dryer Brush 2.0",
       "image": "https://www.sephora.com/productimages/sku/s2559326-main-Lhero.jpg",
@@ -2356,6 +2433,7 @@
       "description": "amika - Hair Blow Dryer Brush 2.0"
     },
     {
+      "active": true,
       "id": "P430239",
       "productName": "Veil™ Powder Brush",
       "image": "https://www.sephora.com/productimages/sku/s2071777-main-Lhero.jpg",
@@ -2367,6 +2445,7 @@
       "description": "Hourglass - Veil™ Powder Brush"
     },
     {
+      "active": true,
       "id": "P473327",
       "productName": "The Big Buffing Bronzer Brush",
       "image": "https://www.sephora.com/productimages/sku/s2482560-main-Lhero.jpg?pb=clean-planet-positive-badge-2021",
@@ -2378,6 +2457,7 @@
       "description": "Saie - The Big Buffing Bronzer Brush"
     },
     {
+      "active": true,
       "id": "P502051",
       "productName": "Dual-Ended Complexion Brush",
       "image": "https://www.sephora.com/productimages/sku/s2612109-main-Lhero.jpg",
@@ -2389,6 +2469,7 @@
       "description": "PATRICK TA - Dual-Ended Complexion Brush"
     },
     {
+      "active": true,
       "id": "P471060",
       "productName": "Major Sculpt Contour Brush",
       "image": "https://www.sephora.com/productimages/sku/s2419364-main-Lhero.jpg?pb=allure-best-2021-badge",
@@ -2400,6 +2481,7 @@
       "description": "PATRICK TA - Major Sculpt Contour Brush"
     },
     {
+      "active": true,
       "id": "P427017",
       "productName": "Deep-Cleaning Brush and Sponge Shampoo",
       "image": "https://www.sephora.com/productimages/sku/s2497246-main-Lhero.jpg",
@@ -2411,6 +2493,7 @@
       "description": "SEPHORA COLLECTION - Deep-Cleaning Brush and Sponge Shampoo"
     },
     {
+      "active": true,
       "id": "P500791",
       "productName": "Mini Happy Hollydays Eye Brush Set",
       "image": "https://www.sephora.com/productimages/sku/s2563765-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2422,6 +2505,7 @@
       "description": "SEPHORA COLLECTION - Mini Happy Hollydays Eye Brush Set"
     },
     {
+      "active": true,
       "id": "P443328",
       "productName": "Hot Line Brush Tip Waterproof Liquid Eyeliner",
       "image": "https://www.sephora.com/productimages/sku/s2140788-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2433,6 +2517,7 @@
       "description": "SEPHORA COLLECTION - Hot Line Brush Tip Waterproof Liquid Eyeliner"
     },
     {
+      "active": true,
       "id": "P458725",
       "productName": "Clean Foundation Brush",
       "image": "https://www.sephora.com/productimages/sku/s2311884-main-Lhero.jpg?pb=2020-03-sephora-clean-2019",
@@ -2444,6 +2529,7 @@
       "description": "SEPHORA COLLECTION - Clean Foundation Brush"
     },
     {
+      "active": true,
       "id": "P501408",
       "productName": "Smooth Talker Double Agent Straightening Blow Dry Brush Hair Set",
       "image": "https://www.sephora.com/productimages/sku/s2611663-main-Lhero.jpg?pb=2020-03-sephora-clean-2019",
@@ -2455,6 +2541,7 @@
       "description": "amika - Smooth Talker Double Agent Straightening Blow Dry Brush Hair Set"
     },
     {
+      "active": true,
       "id": "P481146",
       "productName": "Skin Enhancing Duo: Luminous Skin Tint Serum Foundation & Foundation Brush",
       "image": "https://www.sephora.com/productimages/sku/s2566792-main-Lhero.jpg?pb=clean-planet-positive-badge-2021",
@@ -2466,6 +2553,7 @@
       "description": "ROSE INC - Skin Enhancing Duo: Luminous Skin Tint Serum Foundation & Foundation Brush"
     },
     {
+      "active": true,
       "id": "P313034",
       "productName": "PRO Eye Liner Brush #22",
       "image": "https://www.sephora.com/productimages/sku/s2290542-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2477,6 +2565,7 @@
       "description": "SEPHORA COLLECTION - PRO Eye Liner Brush #22"
     },
     {
+      "active": true,
       "id": "P455661",
       "productName": "PRO Crease Brush #19",
       "image": "https://www.sephora.com/productimages/sku/s2290138-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2488,6 +2577,7 @@
       "description": "SEPHORA COLLECTION - PRO Crease Brush #19"
     },
     {
+      "active": true,
       "id": "P455646",
       "productName": "PRO Powder Brush #59",
       "image": "https://www.sephora.com/productimages/sku/s2290641-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
@@ -2499,6 +2589,7 @@
       "description": "SEPHORA COLLECTION - PRO Powder Brush #59"
     },
     {
+      "active": true,
       "id": "P454744",
       "productName": "Vanish™ Seamless Finish Concealer Brush",
       "image": "https://www.sephora.com/productimages/sku/s2303121-main-Lhero.jpg",
@@ -2510,6 +2601,7 @@
       "description": "Hourglass - Vanish™ Seamless Finish Concealer Brush"
     },
     {
+      "active": true,
       "id": "P503566",
       "productName": "The Complete Vegan Brush Collection Holiday Gift Set",
       "image": "https://www.sephora.com/productimages/sku/s2625804-main-Lhero.jpg?pb=2020-03-sephora-clean-2019",
@@ -2521,6 +2613,7 @@
       "description": "Westman Atelier - The Complete Vegan Brush Collection Holiday Gift Set"
     },
     {
+      "active": true,
       "id": "P394935",
       "productName": "Makeup Brush Cleaner Pro Starter Kit",
       "image": "https://www.sephora.com/productimages/sku/s1702745-main-Lhero.jpg",
@@ -2532,6 +2625,7 @@
       "description": "Cinema Secrets - Makeup Brush Cleaner Pro Starter Kit"
     },
     {
+      "active": true,
       "id": "P501180",
       "productName": "Ambient Soft Glow Foundation Brush",
       "image": "https://www.sephora.com/productimages/sku/s2587087-main-Lhero.jpg",
@@ -2543,6 +2637,7 @@
       "description": "Hourglass - Ambient Soft Glow Foundation Brush"
     },
     {
+      "active": true,
       "id": "P502332",
       "productName": "All Jazzed Up Face and Eye Brush Set",
       "image": "https://www.sephora.com/productimages/sku/s2614915-main-Lhero.jpg",
@@ -2554,6 +2649,7 @@
       "description": "tarte - All Jazzed Up Face and Eye Brush Set"
     },
     {
+      "active": true,
       "id": "P462351",
       "productName": "Rise Volumizing Hot Brush",
       "image": "https://www.sephora.com/productimages/sku/s2381101-main-Lhero.jpg",
@@ -2565,6 +2661,7 @@
       "description": "ghd - Rise Volumizing Hot Brush"
     },
     {
+      "active": true,
       "id": "P467618",
       "productName": "The Single Shot Blow-Dryer Brush",
       "image": "https://www.sephora.com/productimages/sku/s2413912-main-Lhero.jpg",
@@ -2576,6 +2673,7 @@
       "description": "Drybar - The Single Shot Blow-Dryer Brush"
     },
     {
+      "active": true,
       "id": "P483150",
       "productName": "Vegan Face & Eye Travel Brush Set",
       "image": "https://www.sephora.com/productimages/sku/s2501732-main-Lhero.jpg",
@@ -2587,6 +2685,7 @@
       "description": "Hourglass - Vegan Face & Eye Travel Brush Set"
     },
     {
+      "active": true,
       "id": "P474820",
       "productName": "Vegan Detangle + Style Brush",
       "image": "https://www.sephora.com/productimages/sku/s2491348-main-Lhero.jpg?pb=2020-03-sephora-clean-2019",
@@ -2598,6 +2697,7 @@
       "description": "dae - Vegan Detangle + Style Brush"
     },
     {
+      "active": true,
       "id": "P455643",
       "productName": "PRO Concealer Brush #45",
       "image": "https://www.sephora.com/productimages/sku/s2290252-main-Lhero.jpg?pb=2020-03-sephora-value-2020",
