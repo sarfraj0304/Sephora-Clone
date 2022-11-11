@@ -2645,5 +2645,42 @@
       "password": "sarfraz5555",
       "id": "kOjdaZr"
     }
+  ],
+  "customer_details": [
+    {
+      "fname": "Ayush ",
+      "lname": "Gupta",
+      "number": "7800302470",
+      "address": "Ghazipur",
+      "id": "3e5hFGa"
+    },
+    {
+      "fname": "sarfraz",
+      "lname": "Raza",
+      "number": "7800302747",
+      "address": "Delhi",
+      "id": "TSmQwEK"
+    },
+    {
+      "fname": "Ankul",
+      "lname": "tendulkar",
+      "number": "7800302747",
+      "address": "Bihar",
+      "id": "Ffciyx0"
+    },
+    {
+      "fname": "sachin",
+      "lname": "mishra",
+      "number": "7800302471",
+      "address": "jaunpur",
+      "id": "bm-SwiL"
+    },
+    {
+      "fname": "sachin",
+      "lname": "mishra",
+      "number": "7800302471",
+      "address": "jaunpur",
+      "id": "URpGRSF"
+    }
   ]
 }
