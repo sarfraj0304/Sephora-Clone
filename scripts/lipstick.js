@@ -5,7 +5,7 @@ header.innerHTML = navbar();
 
 const getData = async () => {
   try {
-    let res = await fetch("http://localhost:3000/hair");
+    let res = await fetch("http://localhost:3000/lipstick");
     let data = await res.json();
 
     appendData(data);
@@ -13,9 +13,11 @@ const getData = async () => {
 };
 
 const appendData = (data) => {
-  console.log(data);
+  
   data.forEach((el) => {
-    if (el.active == true) {
+    
+
+        
       var div = document.createElement("div");
       div.setAttribute("class", "item-card");
       var img = document.createElement("img");
@@ -29,13 +31,14 @@ const appendData = (data) => {
 
       var pPrice = document.createElement("h4");
       pPrice.innerText = el.price;
+      
       div.addEventListener("click", function () {
         getdetails(el);
       });
 
       div.append(img, cName, pName, pPrice);
       document.getElementById("items").append(div);
-    }
+    
   });
 };
 
@@ -61,7 +64,7 @@ const sort_handle = async (query, value) => {
   document.getElementById("items").innerHTML = null;
 
   let res = await fetch(
-    `http://localhost:3000/hair?_sort=${query}&_order=${value}`
+    `http://localhost:3000/lipstick?_sort=${query}&_order=${value}`
   );
   let data = await res.json();
 
@@ -82,7 +85,7 @@ filter_Prods.onchange = () => {
 
 const handle_filter = async (query, value) => {
   document.getElementById("items").innerHTML = null;
-  let res = await fetch(`http://localhost:3000/hair?${query}=${value}`);
+  let res = await fetch(`http://localhost:3000/lipstick?${query}=${value}`);
   let data = await res.json();
   appendData(data);
 };

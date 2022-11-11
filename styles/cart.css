@@ -39,7 +39,7 @@ border: 1px solid black;
 }
 #rest_div>h4{
    float: right;
-   margin-top: -80px;
+   margin-top: -40px;
 }
 .btn{
     width: 90px;
@@ -99,4 +99,22 @@ width:100px;
 margin:auto;
 
 
+}
+#select{
+/* border: 1px solid black; */
+ margin-top: 90px;
+/* margin-left: -20px; */
+/* margin-right: 30px; */
+/* height: auto; */
+}
+.corner{
+
+    margin-left: 205px;
+}
+#s_price{
+    margin-left: 220px;
+}
+#a_price{
+
+    margin-left: 230px;
 }

@@ -5,7 +5,7 @@ header.innerHTML = navbar();
 
 const getData = async () => {
   try {
-    let res = await fetch("http://localhost:3000/hair");
+    let res = await fetch("http://localhost:3000/skincare");
     let data = await res.json();
 
     appendData(data);
@@ -61,7 +61,7 @@ const sort_handle = async (query, value) => {
   document.getElementById("items").innerHTML = null;
 
   let res = await fetch(
-    `http://localhost:3000/hair?_sort=${query}&_order=${value}`
+    `http://localhost:3000/skincare?_sort=${query}&_order=${value}`
   );
   let data = await res.json();
 
@@ -82,7 +82,7 @@ filter_Prods.onchange = () => {
 
 const handle_filter = async (query, value) => {
   document.getElementById("items").innerHTML = null;
-  let res = await fetch(`http://localhost:3000/hair?${query}=${value}`);
+  let res = await fetch(`http://localhost:3000/skincare?${query}=${value}`);
   let data = await res.json();
   appendData(data);
 };

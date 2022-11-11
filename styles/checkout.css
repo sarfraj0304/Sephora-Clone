@@ -47,11 +47,11 @@ hr{
 }
 .check{
 margin: 20px;
-text-align: center;
+
 
 width:80%;
 height: 45px;
-border-radius: 15px;
+border-radius: 5px;
 }
 h1,h2{
     margin-left: 20px;
@@ -79,4 +79,36 @@ h1,h2{
 }
 #pric{
     margin-left: 140px;
+}
+#dscnt{
+    margin-left: 150px;
+}
+#actual{
+    margin-left: 150px;
+}
+.butn{
+margin-left: 10px;
+width: 140px;
+height: 40px;
+border: none;
+font-size: 15px;
+
+}
+#promo{
+    width: 180px;
+    height: 40px;
+    border: none;
+    margin: 5px;
+}
+#apl{
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+#apl:hover{
+    background-color: grey;
 }

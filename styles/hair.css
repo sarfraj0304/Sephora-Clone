@@ -83,7 +83,8 @@ opacity: 0.7;
     height: auto;
     margin:10px;
     text-align: center;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+
 
 }
 .item-card>img{
@@ -108,6 +109,9 @@ height:90px
 text-align: center;
 margin-bottom: 20px;
 }
+
+
+
 @media screen and (max-width: 992px) {
    #cate {
         display:none;
@@ -124,6 +128,9 @@ margin-bottom: 20px;
     #cru{
         display:none;
     }
+    #cle{
+        display:none;
+    }
   }
   @media screen and (max-width: 600px) 
   {
@@ -137,5 +144,11 @@ margin-bottom: 20px;
     }
     #prod>div{
         display:none
+    }
+    #cru{
+        display:none;
+    }
+    #cle{
+        display:none;
     }
   }
