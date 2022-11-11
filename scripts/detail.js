@@ -30,11 +30,14 @@ appendData(data);
 
 document.getElementById("btn").addEventListener("click", function () {
   add();
+
 });
 
-let arr = JSON.parse(localStorage.getItem("add2cart")) || [];
 
 function add() {
-  arr.push(data);
-  localStorage.setItem("add2cart", JSON.stringify(arr));
+  
+
+  localStorage.setItem("Cart_Product",JSON.stringify(data));
+window.location.href="cart.html"
+  
 }
