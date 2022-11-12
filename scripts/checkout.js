@@ -93,6 +93,12 @@ payCashBtn.onclick = () => {
     }
   }
 };
+<<<<<<< HEAD
+
+if (data != 0) {
+  document.getElementById("actual").innerText = "$" + data.price;
+}
+=======
 let apply_btn = document.getElementById("apl");
 
 apply_btn.onclick = async () => {
@@ -152,3 +158,4 @@ const discount = (data_1) => {
 // };
 
 document.getElementById("actual").innerText = "$" + data;
+>>>>>>> main

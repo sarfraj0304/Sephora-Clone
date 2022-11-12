@@ -63,3 +63,21 @@ const delete_user_data = async (id) => {
     method: "DELETE",
   });
 };
+
+// handle sorting
+// let sort_customer = document.getElementById("sort_Prod");
+// sort_customer.onchange = () => {
+//   let inputVal = sort_Prods.value;
+//   if (inputVal == "a2z") {
+//     sort_handle("firstname", "asc");
+//   } else if (inputVal == "z2a") {
+//     sort_handle("firstname", "desc");
+//   }
+// };
+// const sort_handle = async (query, value) => {
+//   let res = await fetch(
+//     `http://localhost:3000/$user_login_details?_sort=${query}&_order=${value}`
+//   );
+//   let data = await res.json();
+//   appendCustomerData(data);
+// };

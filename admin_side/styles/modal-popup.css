@@ -36,6 +36,20 @@
   text-decoration: none;
   cursor: pointer;
 }
+/* discount */
+.closed {
+  color: #9a9a9a;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closed:hover,
+.closed:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 .modal-content > input,
 .modal-content > select {
   display: block;
@@ -43,7 +57,8 @@
   width: 100%;
   margin-bottom: 10px;
 }
-#add_new_product {
+#add_new_product,
+#add_new_discount {
   width: 100%;
   padding: 10px 50px;
   font-size: 15px;
@@ -53,6 +68,7 @@
   border-radius: 5px;
   color: white;
 }
-#add_new_product:hover {
+#add_new_product:hover,
+#add_new_discount:hover {
   background-color: rgb(67, 67, 242);
 }

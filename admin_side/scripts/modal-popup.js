@@ -1,8 +1,8 @@
 // Get the modal
-var modal = document.getElementById("myModal");
+var modal = document.querySelector(".myModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("add_product");
+var btn = document.querySelector(".add_product");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -18,7 +18,7 @@ span.onclick = function () {
 };
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
+document.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
@@ -52,6 +52,7 @@ addNewProducts.onclick = async () => {
       "Content-Type": "application/json",
     },
   });
+  alert("Product Added");
   category.value = "";
   ProdName.value = "";
   ProdImage.value = "";
@@ -59,5 +60,4 @@ addNewProducts.onclick = async () => {
   ProdBrand.value = "";
   ProdQuantity.value = "";
   ProdDescription.value = "";
-  alert("Product Added");
 };

@@ -177,8 +177,9 @@ const removeProduct = async (id, cat) => {
 };
 
 //Handling category Buttons
-//skincare Products
+
 let cat_btns = document.querySelectorAll(".cat_btn");
+//skincare Products
 
 let skincare = document.getElementById("skin_btn");
 skincare.onclick = () => {
