@@ -28,6 +28,7 @@ const navbar = () => {
           id="basket_icon"
           src="https://img.icons8.com/dotty/80/null/shopping-basket-2.png"
         />
+        <h5 id="basket_count"></h5>
       </div>
     </div>
     <div class="menubar_container">

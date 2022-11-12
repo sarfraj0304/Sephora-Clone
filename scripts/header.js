@@ -4,6 +4,15 @@ logo_image.onclick = () => {
   location.href = "./index.html";
 };
 
+const basket_icon = document.getElementById("basket_icon");
+basket_icon.onclick = () => {
+  location.href = "./cart.html";
+};
+
+const basket_count = document.getElementById("basket_count");
+let count = JSON.parse(localStorage.getItem("addToBasket"));
+basket_count.innerText = count.length;
+
 // fetching and appending for brush category
 let fetchDataBrush = async () => {
   let res = await fetch("http://localhost:3000/brush");
