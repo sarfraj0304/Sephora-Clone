@@ -191,13 +191,19 @@ body {
 
 /* Product page styles */
 
-#products_page .header {
+#products_page .header,
+#discounts_page .header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
 }
 
-#add_product::before {
+.add_product::before {
+  content: "\2b";
+  font-family: "FontAwesome";
+  margin-right: 7px;
+}
+.add_discount::before {
   content: "\2b";
   font-family: "FontAwesome";
   margin-right: 7px;
@@ -287,6 +293,47 @@ table tbody tr {
 }
 #customers_page > h4 {
   margin-bottom: 30px;
+}
+
+/* products page table styling */
+#orders_page > table thead tr th:nth-child(1),
+#orders_page > table thead tr th:nth-child(2),
+#orders_page > table thead tr th:nth-child(3),
+#orders_page > table thead tr th:nth-child(4),
+#orders_page > table thead tr th:nth-child(7),
+#orders_page > table thead tr th:nth-child(8) {
+  width: 10%;
+  text-align: center;
+}
+#orders_page > table thead tr th:nth-child(6),
+#orders_page > table thead tr th:nth-child(5) {
+  width: 20%;
+}
+#orders_page > h4 {
+  margin-bottom: 30px;
+}
+#orders_page > table tbody tr {
+  height: auto;
+  text-align: center;
+}
+
+/* discount page table styling */
+#discounts_page > table thead tr th:nth-child(1),
+#discounts_page > table thead tr th:nth-child(3),
+#discounts_page > table thead tr th:nth-child(4) {
+  width: 10%;
+  text-align: center;
+}
+#discounts_page > table thead tr th:nth-child(2) {
+  width: 20%;
+  text-align: center;
+}
+#discounts_page > h4 {
+  margin-bottom: 30px;
+}
+#discounts_page > table tbody tr {
+  height: 30px;
+  text-align: center;
 }
 
 .edit_icon {

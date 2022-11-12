@@ -75,27 +75,6 @@ btn.onclick = () => {
   }
 };
 
-let apply_btn = document.getElementById("apl");
-
-apply_btn.onclick = () => {
-  discount();
-};
-const discount = () => {
-  let promo_code = document.getElementById("promo").value;
-
-  if (promo_code == "masai30") {
-    document.getElementById("dscnt").innerText = "$" + (data.price * 30) / 100;
-
-    document.getElementById("actual").innerText = "$" + (data.price * 70) / 100;
-  } else if (promo_code == "") {
-    alert("Please enter Promo code");
-  } else if (promo_code == "masai20") {
-    document.getElementById("dscnt").innerText = "$" + (data.price * 20) / 100;
-    document.getElementById("actual").innerText = "$" + (data.price * 80) / 100;
-  } else {
-    alert("Code is not eligible");
-  }
-};
 if (data != 0) {
   document.getElementById("actual").innerText = "$" + data.price;
 }
