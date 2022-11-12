@@ -32,6 +32,8 @@ let displayCartItems = (data) => {
     };
     const selectQty = document.createElement("select");
     selectQty.className = "selectQtyClass";
+    // let default_1 = document.createElement("option");
+    // default_1.innerText = "Select Quantity";
     let one = document.createElement("option");
     one.innerText = 1;
     let two = document.createElement("option");
@@ -70,11 +72,17 @@ quantity.forEach((el, id) => {
     quantityPrice = +quantityPrice.replace("$", "");
     // console.log(quantityPrice);
     totalQ(el, id, quantityPrice, showPrice);
+    call(id);
+    callSum();
   });
 });
 let obj = {};
-let sum = 0;
-
+let sum;
+const totalPrice_id = document.getElementById("totalPrice_id");
+let calculateTotalPrice = data.reduce((acc, el) => {
+  return acc + el.price;
+}, 0);
+totalPrice_id.textContent = `$${calculateTotalPrice}.00`;
 let totalQ = (el, id, price, showPrice) => {
   let inputQ = +el.value;
   showPrice.innerText = inputQ * data[id].price;
@@ -85,16 +93,18 @@ let totalQ = (el, id, price, showPrice) => {
   } else {
     obj[id] = u_Price;
   }
-  // updateTotalPrice(inputQ * data[id].price);
-  // console.log(obj);
+};
+const call = (id) => {
+  sum = calculateTotalPrice - data[id].price;
+  console.log(data[id].price);
   for (let key in obj) {
     sum += obj[key];
   }
-  // console.log(obj);
-  // if (sum != 0) {
-  //   console.log(sum);
-  // }
+};
+const callSum = () => {
   console.log(sum);
+  localStorage.setItem("estimatedTotal", JSON.stringify(sum));
+  totalPrice_id.textContent = `$${sum}.00`;
 };
 
 let removeItem = (index) => {
@@ -102,16 +112,3 @@ let removeItem = (index) => {
   localStorage.setItem("addToBasket", JSON.stringify(data));
   displayCartItems(data);
 };
-
-// let updateTotalPrice = (price) => {
-//   let sum = 0;
-//   sum += price;
-//   console.log(sum);
-// };
-
-const totalPrice_id = document.getElementById("totalPrice_id");
-let calculateTotalPrice = data.reduce((acc, el) => {
-  return acc + el.price;
-}, 0);
-totalPrice_id.textContent = `$${calculateTotalPrice}.00`;
-localStorage.setItem("estimatedTotal", JSON.stringify(calculateTotalPrice));

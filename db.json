@@ -7,7 +7,7 @@
       "image": "https://www.sephora.com/productimages/sku/s2496453-main-Lhero.jpg?pb=2020-03-sephora-clean-2019",
       "rating": 2,
       "reviews": "8",
-      "price": 1499,
+      "price": 1999,
       "brandName": "Dr. Dennis Gross Skincare",
       "quantity": 50,
       "description": "Dr. Dennis Gross Skincare - Mini Alpha Beta® Ultra Gentle Daily Peel for Sensitive Skin"
@@ -2802,6 +2802,19 @@
       ],
       "date": "12/11/2022, 23:46:33",
       "id": 4
+    },
+    {
+      "fname": "Sarfraj",
+      "lname": "Ahmad",
+      "number": "7485963125",
+      "address": "Delhi",
+      "price": 2530,
+      "productName": [
+        "Daisy",
+        "Complete Brush Set"
+      ],
+      "date": "11/13/2022, 12:42:16 AM",
+      "id": 5
     }
   ],
   "all_products": [
@@ -5527,6 +5540,13 @@
       "description": "Winter Sale 2022",
       "amount": 25,
       "id": 3
+    },
+    {
+      "active": true,
+      "code": "CHRIS05",
+      "description": "Christmas Sale 2022",
+      "amount": 5,
+      "id": 4
     }
   ]
 }
