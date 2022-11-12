@@ -54,6 +54,8 @@ sort_Prods.onchange = () => {
     sort_handle("price", "asc");
   } else if (inputVal == "desc") {
     sort_handle("price", "desc");
+  } else {
+    getData();
   }
 };
 
@@ -78,6 +80,8 @@ filter_Prods.onchange = () => {
     handle_filter("price_lte", 1499);
   } else if (inputVal == "1999") {
     handle_filter("price_gte", 1999);
+  } else {
+    getData();
   }
 };
 

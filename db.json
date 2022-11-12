@@ -2746,6 +2746,64 @@
       "id": "kOjdaZr"
     }
   ],
+  "order_details": [
+    {
+      "fname": "Sachin",
+      "lname": "Mishra",
+      "number": "07080623634",
+      "address": "12",
+      "price": 4331,
+      "productName": [
+        "PRO Foundation Brush #56",
+        "Mini The Cult Classic Purifying Face Cleanser",
+        "Mini 24-7 Moisture Hydrating Day & Night Cream"
+      ],
+      "date": "12/11/2022, 23:40:20",
+      "id": 1
+    },
+    {
+      "fname": "Sachin",
+      "lname": "Mishra",
+      "number": "07080623634",
+      "address": "12",
+      "price": 4331,
+      "productName": [
+        "PRO Foundation Brush #56",
+        "Mini The Cult Classic Purifying Face Cleanser",
+        "Mini 24-7 Moisture Hydrating Day & Night Cream"
+      ],
+      "date": "12/11/2022, 23:43:20",
+      "id": 2
+    },
+    {
+      "fname": "Sachin",
+      "lname": "Mishra",
+      "number": "07080623634",
+      "address": "12",
+      "price": 4331,
+      "productName": [
+        "PRO Foundation Brush #56",
+        "Mini The Cult Classic Purifying Face Cleanser",
+        "Mini 24-7 Moisture Hydrating Day & Night Cream"
+      ],
+      "date": "12/11/2022, 23:45:07",
+      "id": 3
+    },
+    {
+      "fname": "abcd",
+      "lname": "xyz",
+      "number": "9459685465",
+      "address": "jaunpur",
+      "price": 4331,
+      "productName": [
+        "PRO Foundation Brush #56",
+        "Mini The Cult Classic Purifying Face Cleanser",
+        "Mini 24-7 Moisture Hydrating Day & Night Cream"
+      ],
+      "date": "12/11/2022, 23:46:33",
+      "id": 4
+    }
+  ],
   "all_products": [
     {
       "active": true,

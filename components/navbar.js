@@ -1,7 +1,7 @@
 const navbar = () => {
   return `<div class="logo_search_container">
       <div class="logo_div">
-        <img src="https://i.ibb.co/JFZ53vq/sparkle-logo.png" alt="" />
+        <img id="logo_image" src="https://i.ibb.co/JFZ53vq/sparkle-logo.png" alt="" />
       </div>
       <div class="search_div">
         <input type="text" name="" id="search_items" placeholder="search" />
@@ -28,6 +28,7 @@ const navbar = () => {
           id="basket_icon"
           src="https://img.icons8.com/dotty/80/null/shopping-basket-2.png"
         />
+        <h5 id="basket_count"></h5>
       </div>
     </div>
     <div class="menubar_container">
