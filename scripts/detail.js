@@ -36,6 +36,7 @@ function add() {
   basketProductsData.push(data);
   localStorage.setItem("addToBasket", JSON.stringify(basketProductsData));
   showCount();
+  alert("Added to Cart");
 }
 function showCount() {
   const basket_count = document.getElementById("basket_count");
