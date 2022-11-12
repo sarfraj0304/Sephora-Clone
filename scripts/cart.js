@@ -5,8 +5,6 @@ header.innerHTML = navbar();
 
 let data = JSON.parse(localStorage.getItem("addToBasket"));
 
-let data_price = JSON.parse(localStorage.getItem("updatePrice"));
-
 let displayCartItems = (data) => {
   const product_div = document.getElementById("product_div");
   product_div.innerHTML = null;
@@ -32,55 +30,88 @@ let displayCartItems = (data) => {
     removeBtn.onclick = () => {
       removeItem(index);
     };
+    const selectQty = document.createElement("select");
+    selectQty.className = "selectQtyClass";
+    let one = document.createElement("option");
+    one.innerText = 1;
+    let two = document.createElement("option");
+    two.innerText = 2;
+    let three = document.createElement("option");
+    three.innerText = 3;
+    let four = document.createElement("option");
+    four.innerText = 4;
+    let five = document.createElement("option");
+    five.innerText = 5;
+
+    // // const quantity = document.getElementById("quantity");
+    // selectQty.onchange = () => {
+    //   UpdatePriceforQty(el);
+    // };
+    selectQty.append(one, two, three, four, five);
     productImageBox.append(image);
-    productDetailsBox.append(brand, name, itemId);
+    productDetailsBox.append(brand, name, itemId, selectQty);
     productPriceBox.append(price, removeBtn);
     productBox.append(productImageBox, productDetailsBox, productPriceBox);
     product_div.append(productBox);
   });
 };
 
+// let UpdatePriceforQty = (el) => {
+//   console.log(el);
+// };
 displayCartItems(data);
+
+const quantity = document.querySelectorAll(".selectQtyClass");
+
+quantity.forEach((el, id) => {
+  el.addEventListener("change", (e) => {
+    let quantityPrice = e.target.parentNode.nextSibling.childNodes[0].innerText;
+    let showPrice = e.target.parentNode.nextSibling.childNodes[0];
+    quantityPrice = +quantityPrice.replace("$", "");
+    // console.log(quantityPrice);
+    totalQ(el, id, quantityPrice, showPrice);
+  });
+});
+let obj = {};
+let sum = 0;
+
+let totalQ = (el, id, price, showPrice) => {
+  let inputQ = +el.value;
+  showPrice.innerText = inputQ * data[id].price;
+  let u_Price = inputQ * data[id].price;
+  // console.log(u_Price);
+  if (!obj[id]) {
+    obj[id] = u_Price;
+  } else {
+    obj[id] = u_Price;
+  }
+  // updateTotalPrice(inputQ * data[id].price);
+  // console.log(obj);
+  for (let key in obj) {
+    sum += obj[key];
+  }
+  // console.log(obj);
+  // if (sum != 0) {
+  //   console.log(sum);
+  // }
+  console.log(sum);
+};
 
 let removeItem = (index) => {
   data.splice(index, 1);
   localStorage.setItem("addToBasket", JSON.stringify(data));
   displayCartItems(data);
-  //   location.reload();
 };
 
-function display(data, updatePrice) {
-  document.getElementById("product_div").innerHTML = null;
-  let image = document.createElement("img");
-  image.src = data.image;
-  let brand = document.createElement("h5");
-  brand.innerText = data.brandName;
-  let btn = document.createElement("button");
-  btn.innerText = "Remove";
-  btn.setAttribute("class", "btn");
-  let price = document.createElement("h4");
-  price.innerText = "$" + (updatePrice || data.price);
+// let updateTotalPrice = (price) => {
+//   let sum = 0;
+//   sum += price;
+//   console.log(sum);
+// };
 
-  document.getElementById("rest_div").append(brand, price, btn);
-  document.getElementById("image_div").append(image);
-}
-
-let show = document.getElementById("quantity");
-show.onchange = () => {
-  appendPrice();
-};
-
-function appendPrice() {
-  let quantity = document.getElementById("quantity").value;
-  document.getElementById("count").innerText = quantity;
-
-  let updatePrice = data.price * quantity;
-  document.getElementById("s_price").innerText = "$" + updatePrice;
-  document.getElementById("a_price").innerText = "$" + updatePrice;
-  display(data, updatePrice);
-  localStorage.setItem("updatePrice", JSON.stringify(updatePrice));
-}
-
-document.getElementById("count").innerText = 1;
-document.getElementById("s_price").innerText = "$" + data.price;
-document.getElementById("a_price").innerText = "$" + data.price;
+const totalPrice_id = document.getElementById("totalPrice_id");
+let calculateTotalPrice = data.reduce((acc, el) => {
+  return acc + el.price;
+}, 0);
+totalPrice_id.textContent = `$${calculateTotalPrice}.00`;
+localStorage.setItem("estimatedTotal", JSON.stringify(calculateTotalPrice));

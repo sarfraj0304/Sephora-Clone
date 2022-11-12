@@ -31,8 +31,6 @@
   position: relative;
   border-bottom: 1px solid rgb(236, 229, 229);
 }
-#product_div > div > div {
-}
 #product_div > div > div:nth-child(3) {
   position: absolute;
   right: 15px;
@@ -52,9 +50,39 @@
 }
 #product_div > div > div > p {
   width: 25 0px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 25px;
 }
 .right_cart_div {
-  border: 3px solid green;
+  border: 1px solid rgb(207, 196, 196);
+  border-radius: 3px;
+  padding: 15px;
+  width: 23%;
+  height: 100%;
+}
+.right_cart_div > p {
+  font-size: 14px;
+  line-height: 25px;
+}
+.right_cart_div > h4 {
+  line-height: 25px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.right_cart_div button {
+  padding: 15px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 50px;
+  background-color: rgb(197, 0, 37);
+  color: white;
+  transition: 0.2s;
+  margin: 20px 0;
+  font-size: 15px;
+  border: none;
+  
+}
+.right_cart_div button:hover {
+  background-color: rgb(224, 0, 10);
 }

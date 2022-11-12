@@ -2746,41 +2746,62 @@
       "id": "kOjdaZr"
     }
   ],
-  "customer_details": [
+  "order_details": [
     {
-      "fname": "Ayush ",
-      "lname": "Gupta",
-      "number": "7800302470",
-      "address": "Ghazipur",
-      "id": "3e5hFGa"
+      "fname": "Sachin",
+      "lname": "Mishra",
+      "number": "07080623634",
+      "address": "12",
+      "price": 4331,
+      "productName": [
+        "PRO Foundation Brush #56",
+        "Mini The Cult Classic Purifying Face Cleanser",
+        "Mini 24-7 Moisture Hydrating Day & Night Cream"
+      ],
+      "date": "12/11/2022, 23:40:20",
+      "id": 1
     },
     {
-      "fname": "sarfraz",
-      "lname": "Raza",
-      "number": "7800302747",
-      "address": "Delhi",
-      "id": "TSmQwEK"
+      "fname": "Sachin",
+      "lname": "Mishra",
+      "number": "07080623634",
+      "address": "12",
+      "price": 4331,
+      "productName": [
+        "PRO Foundation Brush #56",
+        "Mini The Cult Classic Purifying Face Cleanser",
+        "Mini 24-7 Moisture Hydrating Day & Night Cream"
+      ],
+      "date": "12/11/2022, 23:43:20",
+      "id": 2
     },
     {
-      "fname": "Ankul",
-      "lname": "tendulkar",
-      "number": "7800302747",
-      "address": "Bihar",
-      "id": "Ffciyx0"
+      "fname": "Sachin",
+      "lname": "Mishra",
+      "number": "07080623634",
+      "address": "12",
+      "price": 4331,
+      "productName": [
+        "PRO Foundation Brush #56",
+        "Mini The Cult Classic Purifying Face Cleanser",
+        "Mini 24-7 Moisture Hydrating Day & Night Cream"
+      ],
+      "date": "12/11/2022, 23:45:07",
+      "id": 3
     },
     {
-      "fname": "sachin",
-      "lname": "mishra",
-      "number": "7800302471",
+      "fname": "abcd",
+      "lname": "xyz",
+      "number": "9459685465",
       "address": "jaunpur",
-      "id": "bm-SwiL"
-    },
-    {
-      "fname": "sachin",
-      "lname": "mishra",
-      "number": "7800302471",
-      "address": "jaunpur",
-      "id": "URpGRSF"
+      "price": 4331,
+      "productName": [
+        "PRO Foundation Brush #56",
+        "Mini The Cult Classic Purifying Face Cleanser",
+        "Mini 24-7 Moisture Hydrating Day & Night Cream"
+      ],
+      "date": "12/11/2022, 23:46:33",
+      "id": 4
     }
   ],
   "all_products": [
@@ -5483,6 +5504,29 @@
       "brandName": "SEPHORA COLLECTION",
       "quantity": 50,
       "description": "SEPHORA COLLECTION - PRO Concealer Brush #45"
+    }
+  ],
+  "discounts": [
+    {
+      "active": true,
+      "code": "WINTER15",
+      "description": "Winter Sale 2022",
+      "amount": 15,
+      "id": 1
+    },
+    {
+      "active": true,
+      "code": "WINTER20",
+      "description": "Winter Sale 2022",
+      "amount": 20,
+      "id": 2
+    },
+    {
+      "active": true,
+      "code": "WINTER25",
+      "description": "Winter Sale 2022",
+      "amount": 25,
+      "id": 3
     }
   ]
 }

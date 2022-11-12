@@ -9,8 +9,10 @@ basket_icon.onclick = () => {
   location.href = "./cart.html";
 };
 
-let basketCount = JSON.parse(localStorage.getItem("addToBasket"));
-console.log(basketCount.length);
+const basket_count = document.getElementById("basket_count");
+let count = JSON.parse(localStorage.getItem("addToBasket"));
+basket_count.innerText = count.length;
+
 // fetching and appending for brush category
 let fetchDataBrush = async () => {
   let res = await fetch("http://localhost:3000/brush");

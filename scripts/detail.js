@@ -35,5 +35,11 @@ let basketProductsData = JSON.parse(localStorage.getItem("addToBasket")) || [];
 function add() {
   basketProductsData.push(data);
   localStorage.setItem("addToBasket", JSON.stringify(basketProductsData));
-  // location.reload();
+  showCount();
 }
+function showCount() {
+  const basket_count = document.getElementById("basket_count");
+  basket_count.innerText = basketProductsData.length;
+}
+const basket_count = document.getElementById("basket_count");
+basket_count.innerText = basketProductsData.length;
