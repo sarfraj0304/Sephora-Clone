@@ -2,7 +2,10 @@ import { navbar } from "../components/navbar.js";
 
 const header = document.getElementById("header");
 header.innerHTML = navbar();
-
+//  footer import 
+import { footer } from "../components/footer.js";
+const footer_id = document.getElementById("footer_id");
+footer_id.innerHTML = footer();
 // product 1 data fetching starts
 
 let fetch_image_slide_skincare_data = async () => {

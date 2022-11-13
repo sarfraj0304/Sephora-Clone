@@ -10,18 +10,20 @@
   align-items: center;
 }
 .logo_search_container > .logo_div {
-  width: 9%;
+  width: 10%;
+  margin: 0 40px;
 }
 .logo_search_container > .logo_div > img {
   width: 100%;
 }
 .logo_search_container > .search_div {
-  width: 30%;
+  width: 40%;
 }
 .logo_search_container > .search_div > input {
   width: 100%;
   padding: 8px;
   border-radius: 50px;
+  border: 1px solid;
 }
 .logo_search_container > .stores_services_div {
   width: 14%;
@@ -29,8 +31,12 @@
   align-items: center;
   justify-content: space-evenly;
 }
+.logo_search_container > .stores_services_div > a {
+  margin-left: -20px;
+}
 .logo_search_container > .stores_services_div > img {
   width: 15%;
+  cursor: pointer;
 }
 .logo_search_container > .community_div,
 .logo_search_container > .signin_div {
@@ -39,25 +45,28 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.logo_search_container > .community_div > img {
-  width: 20%;
-  height: 20%;
-}
-
+.logo_search_container > .community_div > img,
 .logo_search_container > .signin_div > img {
   width: 20%;
   height: 20%;
+  cursor: pointer;
 }
 .logo_search_container > .menu_icons_div {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 10%;
 }
-.logo_search_container > .menu_icons_div > #chat_icon_1,
-.logo_search_container > .menu_icons_div > #heart_icon,
 .logo_search_container > .menu_icons_div > #basket_icon {
-  width: 20%;
+  width: 30%;
   cursor: pointer;
+}
+.logo_search_container > .menu_icons_div > #basket_count {
+  padding: 5px 8px;
+  background-color: rgb(205, 7, 42);
+  margin-left: -20px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  color: white;
 }
 .logo_search_container a {
   color: black;
@@ -124,19 +133,57 @@ nav > ul > li:hover .megamenu {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1010px) {
   .logo_search_container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
   }
-  nav > ul {
+  .logo_search_container > .logo_div {
+    width: 15%;
+    margin: 0 10px;
+  }
+  .logo_search_container > .stores_services_div {
+    width: 15%;
+    flex-direction: column;
+  }
+  .logo_search_container > .stores_services_div > img {
+    width: 17%;
+    margin-bottom: 2px;
+  }
+  .logo_search_container > .community_div,
+  .logo_search_container > .signin_div {
+    width: 12%;
+    flex-direction: column;
+  }
+  .logo_search_container > .community_div > img,
+  .logo_search_container > .signin_div > img {
+    width: 20%;
+    height: 20%;
+    margin-bottom: 2px;
+  }
+  .logo_search_container > .menu_icons_div {
     display: flex;
-    width: 95%;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
   }
-}
-@media screen and (max-width: 991px) {
+  .logo_search_container > .menu_icons_div > #basket_icon {
+    width: 50%;
+  }
+  .logo_search_container > .menu_icons_div > #basket_count {
+    padding: 4px 7px;
+    background-color: rgb(205, 7, 42);
+    margin-left: -15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    color: white;
+  }
+  .logo_search_container a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+  }
   .menubar_container {
     background-color: white;
   }
@@ -149,7 +196,7 @@ nav > ul > li:hover .megamenu {
   }
   nav > ul > li > a {
     color: black;
-    font-size: 12px;
+    font-size: 13px;
     padding: 5px 3px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
@@ -157,24 +204,62 @@ nav > ul > li:hover .megamenu {
     display: none;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 850px) {
   .menubar_container {
-    background-color: white;
+    white-space: nowrap;
+    overflow: hidden;
   }
   nav > ul {
-    width: 95%;
-    justify-content: space-between;
+    width: 98%;
   }
   nav > ul > li {
-    padding: 10px 0px;
+    padding: 10px 3px;
   }
   nav > ul > li > a {
-    color: black;
     font-size: 12px;
-    padding: 5px 3px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
   }
-  .megamenu {
+}
+
+@media screen and (max-width: 550px) {
+  .logo_search_container > .logo_div {
+    width: 20%;
+  }
+  .logo_search_container > .search_div {
+    width: 50%;
+  }
+  .logo_search_container > .stores_services_div {
     display: none;
+  }
+  .logo_search_container > .community_div {
+    display: none;
+  }
+  .logo_search_container > .signin_div {
+    width: 10%;
+    text-align: center;
+  }
+  .logo_search_container > .signin_div > img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 475px) {
+  .logo_search_container > .logo_div {
+    width: 25%;
+    margin-left: 5px;
+  }
+  .logo_search_container > .search_div {
+    width: 60%;
+  }
+  .logo_search_container > .signin_div > a {
+    font-size: 11px;
+  }
+  .logo_search_container > .menu_icons_div > #basket_icon {
+    width: 90%;
+    cursor: pointer;
+  }
+  .logo_search_container > .menu_icons_div > #basket_count {
+    padding: 2px 5px;
+    margin-left: -20px;
+    margin-bottom: 15px;
   }
 }

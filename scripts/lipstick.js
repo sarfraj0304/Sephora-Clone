@@ -3,6 +3,12 @@ import { navbar } from "../components/navbar.js";
 let header = document.getElementById("header");
 header.innerHTML = navbar();
 
+//  footer import 
+import { footer } from "../components/footer.js";
+const footer_id = document.getElementById("footer_id");
+footer_id.innerHTML = footer();
+
+
 const getData = async () => {
   try {
     let res = await fetch("http://localhost:3000/lipstick");
