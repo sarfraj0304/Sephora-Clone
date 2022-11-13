@@ -3,11 +3,10 @@ import { navbar } from "../components/navbar.js";
 const header = document.getElementById("header");
 header.innerHTML = navbar();
 
-//  footer import 
+//  footer import
 import { footer } from "../components/footer.js";
 const footer_id = document.getElementById("footer_id");
 footer_id.innerHTML = footer();
-
 
 let data = JSON.parse(localStorage.getItem("wind"));
 
