@@ -106,17 +106,20 @@ const call = (id) => {
     sum += obj[key];
   }
 };
+
 const callSum = () => {
   console.log(sum);
   localStorage.setItem("estimatedTotal", JSON.stringify(sum));
   totalPrice_id.textContent = sum;
 };
+localStorage.setItem("estimatedTotal", JSON.stringify(calculateTotalPrice));
 
 let removeItem = (index) => {
   data.splice(index, 1);
   localStorage.setItem("addToBasket", JSON.stringify(data));
   displayCartItems(data);
   showCount();
+  window.location.reload();
   alert("Item has been removed from cart");
 };
 
