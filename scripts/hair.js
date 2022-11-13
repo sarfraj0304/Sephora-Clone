@@ -3,11 +3,10 @@ import { navbar } from "../components/navbar.js";
 let header = document.getElementById("header");
 header.innerHTML = navbar();
 
-//  footer import 
+//  footer import
 import { footer } from "../components/footer.js";
 const footer_id = document.getElementById("footer_id");
 footer_id.innerHTML = footer();
-
 
 const getData = async () => {
   try {
@@ -33,14 +32,19 @@ const appendData = (data) => {
 
       var pName = document.createElement("p");
       pName.innerText = el.productName;
-
+      var rating = document.createElement("p");
+      for (let i = 0; i < +el.rating; i++) {
+        const star = document.createElement("span");
+        star.className = "stars";
+        rating.append(star);
+      }
       var pPrice = document.createElement("h4");
       pPrice.innerText = el.price;
       div.addEventListener("click", function () {
         getdetails(el);
       });
 
-      div.append(img, cName, pName, pPrice);
+      div.append(img, cName, pName, rating, pPrice);
       document.getElementById("items").append(div);
     }
   });
