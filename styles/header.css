@@ -263,3 +263,56 @@ nav > ul > li:hover .megamenu {
     margin-bottom: 15px;
   }
 }
+
+/* admin-login */
+.signin_div {
+  position: relative;
+  cursor: pointer;
+}
+
+#admin_login {
+  top: 40px;
+  left: 40px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.91);
+  z-index: 2;
+  padding: 10px;
+  width: 150px;
+  display: none;
+}
+#admin_login > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  line-height: 30px;
+}
+#login_icon_data {
+  position: relative;
+  text-align: center;
+}
+#login_icon_data > img {
+  width: 50%;
+}
+#logout_section {
+  top: 60px;
+  left: 0;
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.937);
+  z-index: 200;
+  padding: 10px;
+  text-align: left;
+  display: none;
+}
+#logout_section > p {
+  line-height: 30px;
+}
+#logout_section > p:nth-child(1)::before {
+  content: "\f007";
+  font-family: "fontawesome";
+}
+/* f2f5 */
+#logout_section > p:nth-child(2)::before {
+  content: "\f2f5 ";
+  font-family: "fontawesome";
+}

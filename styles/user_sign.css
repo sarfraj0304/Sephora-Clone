@@ -1,194 +1,168 @@
-*{
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
-
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-body{
-    background: linear-gradient(to right,#3a7bd5,#3a6073);
-    font-family: "Raleway",sans-serif;
-    height: 100vh;
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
 }
-.center{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.center button{
-
-    padding: 10px 20px;
-    font-size: 15px;
-    font-weight: 600;
-    color:#222;
-    background: #f5f5f5;
-    cursor: pointer;
-    border-radius: 5px;
-
+.center button {
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+  background: #f5f5f5;
+  cursor: pointer;
+  border-radius: 5px;
 }
-.popup{
-
-    position: absolute;
-    top: -150%;
-    left: 50%;
-    opacity: 0;
-    transform: translate(-50%,-50%) scale(1.25);
-width: 400px;
-padding: 20px 30px;
-background-color: white;
-box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 15);
-border-radius: 10px;
-transition: top 0ms ease-in-out 200ms,
-opacity 200ms ease-in-out 0ms,
-transform 20ms ease-in-out 0ms,
+.popup {
+  position: absolute;
+  top: -150%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(1.25);
+  width: 400px;
+  padding: 20px 30px;
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 10px;
+  transition: top 0ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms,
+    transform 20ms ease-in-out 0ms;
 }
-.popup.active{
-    top: 50%;
-opacity: 1;
-transform: translate(-50%,-50%) scale(1);
-transition: top 0ms ease-in-out 200ms,
-opacity 200ms ease-in-out 0ms,
-transform 20ms ease-in-out 0ms,
+.popup.active {
+  top: 50%;
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  transition: top 0ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms,
+    transform 20ms ease-in-out 0ms;
 }
-.popup .close-btn{
-position: absolute;
-top: 10px;
-right: 10px;
-width: 15px;
-height: 15px;
-background: #888;
-color: #eee;
-text-align: center;
-line-height: 15px;
-border-radius: 15px;
-cursor: pointer;
-
+.popup .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background: #888;
+  color: #eee;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 15px;
+  cursor: pointer;
 }
-.popup .form h2{
-text-align: center;
-color: #222;
-margin: 10px 0px 20px;
-font-size: 25px;;
-
+.popup .form h2 {
+  text-align: center;
+  color: #222;
+  margin: 10px 0px 20px;
+  font-size: 25px;
 }
-.popup .form .form-element{
-    margin: 15px 0px;
+.popup .form .form-element {
+  margin: 15px 0px;
 }
-.popup .form .form-element label{
-
-font-size:  14px;
-color: #222;
+.popup .form .form-element label {
+  font-size: 14px;
+  color: #222;
 }
 .popup .form .form-element input[type="text"],
-.popup .form .form-element input[type="password"]{
-margin-top: 5px;
-display: block;
-width: 100%;
-padding: 10px;
-outline: none;
-border: 1px solid #aaa;
-border-radius: 5px;
-
+.popup .form .form-element input[type="password"] {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #aaa;
+  border-radius: 5px;
 }
-.popup .form .form-element input[type="checkbox"]{
-margin-right: 5px;
-
+.popup .form .form-element input[type="checkbox"] {
+  margin-right: 5px;
 }
-.popup .form .form-element button{
-    width: 50%;
-    height: 40px;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    color: white;
-    background-color: black;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-top: 30px;
-
+.popup .form .form-element button {
+  width: 50%;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
 }
-.popup .form .form-element a{
-
-    display:block ;
-    text-align: right;
-    font-size: 15px;
-    color: #1a79ca;
-    text-decoration: none;
-    font-weight: 600;
-
+.popup .form .form-element a {
+  display: block;
+  text-align: right;
+  font-size: 15px;
+  color: #1a79ca;
+  text-decoration: none;
+  font-weight: 600;
 }
-
-
-
 
 /* create css */
-.form-popup .form-container h2{
-    text-align: center;
-    color: #222;
-    margin: 10px 0px 20px;
-    font-size: 25px;
-    
-    }
-    .form-popup .form-container .form-element{
-        margin: 15px 0px;
-    }
-    .form-popup .form-container .form-element p{
-    margin-top: 40px;
-    width: 100%;
- font-size: small;
- color: grey;
-  }
-  .form-popup .form-container .form-element a{
-   
- color: blue;
-  }
-    .form-popup .form .form-element label{
-    
-    font-size:  14px;
-    color: #222;
-    }
-    .form-popup .form-container .form-element input[type="text"],
-    .form-popup .form-container.form-element input[type="password"]{
-    margin-top: 5px;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    outline: none;
-    border: 1px solid #aaa;
-    border-radius: 5px;
-    
-    }
-    .form-popup .form-container .form-element input[type="email"]{
+.form-popup .form-container h2 {
+  text-align: center;
+  color: #222;
+  margin: 10px 0px 20px;
+  font-size: 25px;
+}
+.form-popup .form-container .form-element {
+  margin: 15px 0px;
+}
+.form-popup .form-container .form-element p {
+  margin-top: 40px;
+  width: 100%;
+  font-size: small;
+  color: grey;
+}
+.form-popup .form-container .form-element a {
+  color: blue;
+}
+.form-popup .form .form-element label {
+  font-size: 14px;
+  color: #222;
+}
+.form-popup .form-container .form-element input[type="text"],
+.form-popup .form-container.form-element input[type="password"] {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+.form-popup .form-container .form-element input[type="email"] {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+.form-popup .form-container .form-element input[type="checkbox"] {
+  margin-right: 5px;
+}
 
-      margin-top: 5px;
-      display: block;
-      width: 100%;
-      padding: 10px;
-      outline: none;
-      border: 1px solid #aaa;
-      border-radius: 5px;
-
-    }
-    .form-popup .form-container .form-element input[type="checkbox"]{
-    margin-right: 5px;
-    
-    }
-
-.form-popup .close{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 15px;
-    height: 15px;
-    background: #888;
-    color: #eee;
-    text-align: center;
-    line-height: 15px;
-    border-radius: 15px;
-    cursor: pointer;
-    
-    }
+.form-popup .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background: #888;
+  color: #eee;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
 /* Button used to open the contact form - fixed at the bottom of the page */
 /* .open-button {
     background-color: #555;
@@ -202,72 +176,76 @@ margin-right: 5px;
     right: 28px;
     width: 280px;
   } */
-  
-  /* The popup form - hidden by default */
-  .form-popup {
-   
-    /* position: fixed; */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 500px;
-padding: 20px 30px;
-background-color: white;
-box-shadow: 2px 2px 2px 5px white;
-border-radius: 10px;
-margin-top: 90px;
 
-  }
-  
-  /* Add styles to the form container */
-  .form-container {
-    max-width: 500px;
-    padding: 10px;
-    background-color: white;
+/* The popup form - hidden by default */
+.form-popup {
+  /* position: fixed; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  padding: 20px 30px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  margin-top: 90px;
+  text-align: center;
+}
 
-   
-  }
-  
-  /* Full-width input fields */
-  .form-container input[type=text], .form-container input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-  }
-  
-  /* When the inputs get focus, do something */
-  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-  
-  /* Set a style for the submit/login button */
-  .form-container .btn {
-    background-color: black;
-    border-radius: 15px;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 50%;
-    margin-bottom:10px;
-    opacity: 0.8;
-    margin: auto;
-  }
-  
-  /* Add a red background color to the cancel button */
-  .form-container .cancel {
-    background-color: red;
-  }
-  
-  /* Add some hover effects to buttons */
-  .form-container .btn:hover, .open-button:hover {
-    opacity: 1;
-  }
-   .form-popup p{
- width: 100%;
-    margin: 10px;
-  };
+/* Add styles to the form container */
+.form-container {
+  max-width: 500px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type="text"]:focus,
+.form-container input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  margin: auto;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+.form-popup p {
+  width: 100%;
+  margin: 10px;
+}
+
+.form-element > img {
+  width: 50%;
+}

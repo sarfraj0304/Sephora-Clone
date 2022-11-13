@@ -3,11 +3,10 @@ import { navbar } from "../components/navbar.js";
 let header = document.getElementById("header");
 header.innerHTML = navbar();
 
-//  footer import 
+//  footer import
 import { footer } from "../components/footer.js";
 const footer_id = document.getElementById("footer_id");
 footer_id.innerHTML = footer();
-
 
 const getData = async () => {
   try {
@@ -34,7 +33,7 @@ const appendData = (data) => {
       var pName = document.createElement("p");
       pName.innerText = el.productName;
 
-      var pPrice = document.createElement("h4");
+      var pPrice = document.createElement("h3");
       pPrice.innerText = el.price;
       div.addEventListener("click", function () {
         getdetails(el);
