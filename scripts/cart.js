@@ -3,11 +3,10 @@ import { navbar } from "../components/navbar.js";
 const header = document.getElementById("header");
 header.innerHTML = navbar();
 
-//  footer import 
+//  footer import
 import { footer } from "../components/footer.js";
 const footer_id = document.getElementById("footer_id");
 footer_id.innerHTML = footer();
-
 
 let data = JSON.parse(localStorage.getItem("addToBasket"));
 
@@ -117,4 +116,13 @@ let removeItem = (index) => {
   data.splice(index, 1);
   localStorage.setItem("addToBasket", JSON.stringify(data));
   displayCartItems(data);
+  showCount();
+  alert("Item has been removed from cart");
 };
+
+function showCount() {
+  const basket_count = document.getElementById("basket_count");
+  basket_count.innerText = data.length;
+}
+const basket_count = document.getElementById("basket_count");
+basket_count.innerText = data.length;
