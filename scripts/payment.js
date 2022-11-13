@@ -21,7 +21,7 @@ const matchOtp = () => {
     alert("All Details are Mandatory");
   } else {
     alert("OTP is send your registered number");
-    let enter_otp = prompt("What is Your OTP");
+    let enter_otp = prompt("Please enter your OTP");
     if (enter_otp == 12345) {
       alert("Your Order is sucessfully placed");
       customer_detail();
