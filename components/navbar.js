@@ -8,7 +8,7 @@ const navbar = () => {
       </div>
       <div class="stores_services_div">
         <img src="https://img.icons8.com/ios/50/null/grocery-store.png" />
-        <a href="">Stores & Services</a>
+        <a href="">Stores</a>
       </div>
       <div class="community_div">
         <img src="https://img.icons8.com/ios/50/null/conference-call--v1.png" />
@@ -19,11 +19,6 @@ const navbar = () => {
         <a href="">Sign In</a>
       </div>
       <div class="menu_icons_div">
-        <img
-          id="chat_icon_1"
-          src="https://img.icons8.com/ios/50/null/speech-bubble--v1.png"
-        />
-        <img id="heart_icon" src="./icons/icons8-loading-heart.gif" />
         <img
           id="basket_icon"
           src="https://img.icons8.com/dotty/80/null/shopping-basket-2.png"
