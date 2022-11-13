@@ -40,16 +40,15 @@ async function join() {
   let email = document.getElementById("input_email").value;
   let password = document.getElementById("input_password").value;
   let number = document.getElementById("number").value;
-  console.log(firstname, lastname, email, password, number);
 
-  if (firstname === "" || lastname === "" || email === "" || password === "") {
+  if (firstname === "" || number === "" || email === "" || password === "") {
     alert("please fill all the details");
   } else {
     let obj = {
       firstname,
-      lastname,
       email,
       password,
+      number,
     };
 
     let res = await fetch("http://localhost:3000/user_login_details", {
@@ -68,6 +67,7 @@ async function join() {
     // console.log(arr)
     // let key =JSON.stringify(arr)
     // localStorage.setItem("loginData",key);
+  alert("You have signed up successfully. Please login to Continue");
   }
 }
 
