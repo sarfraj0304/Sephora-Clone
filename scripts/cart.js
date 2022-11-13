@@ -30,7 +30,7 @@ let displayCartItems = (data) => {
     newId[0] = "";
     itemId.textContent = `ITEM ${newId.join("")}`;
     const price = document.createElement("h5");
-    price.textContent = `$${el.price}.00`;
+    price.textContent = el.price;
     const removeBtn = document.createElement("button");
     removeBtn.textContent = "Remove";
     removeBtn.onclick = () => {
@@ -88,7 +88,7 @@ const totalPrice_id = document.getElementById("totalPrice_id");
 let calculateTotalPrice = data.reduce((acc, el) => {
   return acc + el.price;
 }, 0);
-totalPrice_id.textContent = `$${calculateTotalPrice}.00`;
+totalPrice_id.textContent = calculateTotalPrice;
 let totalQ = (el, id, price, showPrice) => {
   let inputQ = +el.value;
   showPrice.innerText = inputQ * data[id].price;
@@ -110,7 +110,7 @@ const call = (id) => {
 const callSum = () => {
   console.log(sum);
   localStorage.setItem("estimatedTotal", JSON.stringify(sum));
-  totalPrice_id.textContent = `$${sum}.00`;
+  totalPrice_id.textContent = sum;
 };
 
 let removeItem = (index) => {

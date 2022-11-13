@@ -38,28 +38,34 @@ saveBtn.onclick = () => {
       lname,
       number,
       address,
-      price: data,
+      price: document.getElementById("actual").innerText,
       productName: nameofData,
       date: new Date().toLocaleString(),
       //   please sachin bhai add krdena
       // cart items add and price
     };
     localStorage.setItem("shipping_details", JSON.stringify(obj));
-
+    getDataFromStorage();
     alert("Your Details is saved");
     alert("Please choose payment option");
   }
 };
-
+let Input_Data;
+const getDataFromStorage = () => {
+  let dataToSend = JSON.parse(localStorage.getItem("shipping_details")) || null;
+  Input_Data = dataToSend;
+  console.log(dataToSend);
+};
 const customer_detail = async () => {
-  let obj = JSON.parse(localStorage.getItem("shipping_details"));
-  let res = await fetch("http://localhost:3000/order_details", {
-    method: "POST",
-    body: JSON.stringify(obj),
-    headers: {
-      "Content-Type": "application/json",
-    },
-  });
+  if (Input_Data != null) {
+    let res = await fetch("http://localhost:3000/order_details", {
+      method: "POST",
+      body: JSON.stringify(Input_Data),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+  }
 };
 
 let payCashBtn = document.getElementById("payCashBtn");
@@ -68,12 +74,15 @@ payCashBtn.style.cursor = "pointer";
 const payOnlineBtn = document.getElementById("payOnlineBtn");
 payOnlineBtn.style.cursor = "pointer";
 payOnlineBtn.onclick = () => {
+  getDataFromStorage();
   let fname = document.getElementById("fname").value;
   let lname = document.getElementById("lname").value;
   let number = document.getElementById("number").value;
   let address = document.getElementById("address").value;
   if (fname == "" || lname === "" || address == "" || number == "") {
     alert("Please fill the details");
+  } else if (Input_Data == null) {
+    alert("Please Save Details First");
   } else {
     location.href = "./payment.html";
   }
@@ -86,6 +95,8 @@ payCashBtn.onclick = () => {
   let address = document.getElementById("address").value;
   if (fname == "" || lname === "" || address == "" || number == "") {
     alert("Please fill the details");
+  } else if (Input_Data == null) {
+    alert("Please Save Details First");
   } else {
     alert("OTP is sent on Number");
     let input_Otp = prompt("Enter otp");
@@ -93,6 +104,7 @@ payCashBtn.onclick = () => {
       if (input_Otp == "12345") {
         alert("Your order is placed");
         customer_detail();
+        localStorage.removeItem("shipping_details");
       } else {
         alert("Worng otp");
       }
@@ -129,6 +141,27 @@ const discount = (data_1) => {
       "$" + (data * discount_price) / 100;
     document.getElementById("actual").innerText =
       "$" + (data * (100 - discount_price)) / 100;
+    console.log(document.getElementById("actual").innerText);
+    //set local storage
+    let fname = document.getElementById("fname").value;
+    let lname = document.getElementById("lname").value;
+    let number = document.getElementById("number").value;
+    let address = document.getElementById("address").value;
+    if (fname != "" || lname != "" || number != "" || address != "") {
+      let obj = {
+        fname,
+        lname,
+        number,
+        address,
+        price: document.getElementById("actual").innerText,
+        productName: nameofData,
+        date: new Date().toLocaleString(),
+        //   please sachin bhai add krdena
+        // cart items add and price
+      };
+      localStorage.setItem("shipping_details", JSON.stringify(obj));
+      getDataFromStorage();
+    }
   } else {
     alert("Invalid Promo Code");
   }
