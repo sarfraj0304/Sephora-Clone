@@ -155,8 +155,37 @@ section {
   color: rgb(88, 86, 86);
 }
 @media screen and (max-width: 991px) {
+  .product_wrapper {
+    margin: 15px;
+  }
+  .product_wrapper > .product_caraousal {
+    padding: 5px 0;
+  }
+  .product_caraousal > div {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  .product_wrapper > ion-icon {
+    height: 30px;
+    width: 30px;
+  }
+  .product_wrapper > h3 {
+    margin-left: 10px;
+  }
+  .product_caraousal > div > img {
+    padding: 5px;
+  }
 }
 @media screen and (max-width: 550px) {
+  .product_wrapper > ion-icon {
+    display: none;
+  }
+  .product_wrapper > h3 {
+    margin-left: 0px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
 }
 /* product slider ends  */
 
@@ -171,10 +200,10 @@ section {
   width: 31.5%;
   margin: auto;
 }
-.cards_div > div > img{
+.cards_div > div > img {
   width: 100%;
 }
-.cards_div > div > h3{
+.cards_div > div > h3 {
   padding: 5px 20px;
   padding-top: 15px;
 }
@@ -184,8 +213,27 @@ section {
 .cards_div > div > p:nth-child(3) {
   padding: 15px 20px;
 }
-.cards_div > div a{
+.cards_div > div a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+@media screen and (max-width: 991px) {
+  .cards_div {
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 5px;
+    gap: 20px;
+  }
+  .cards_div > div {
+    width: 80%;
+    border: 1px solid rgb(138, 134, 134);
+    height: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .cards_div h3 {
+    font-size: 16px;
+  }
 }
