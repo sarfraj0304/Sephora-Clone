@@ -38,11 +38,16 @@ document.getElementById("btn").addEventListener("click", function () {
 });
 
 let basketProductsData = JSON.parse(localStorage.getItem("addToBasket")) || [];
+let checkLogin = JSON.parse(sessionStorage.getItem("user_login")) || null;
 function add() {
-  basketProductsData.push(data);
-  localStorage.setItem("addToBasket", JSON.stringify(basketProductsData));
-  showCount();
-  alert("Added to Cart");
+  if (checkLogin != null) {
+    basketProductsData.push(data);
+    localStorage.setItem("addToBasket", JSON.stringify(basketProductsData));
+    showCount();
+    alert("Added to Cart");
+  } else {
+    alert("Login To your Account First");
+  }
 }
 function showCount() {
   const basket_count = document.getElementById("basket_count");
