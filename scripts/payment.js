@@ -25,6 +25,7 @@ const matchOtp = () => {
     if (enter_otp == 12345) {
       alert("Your Order is sucessfully placed");
       customer_detail();
+      localStorage.removeItem("shipping_details");
     } else if (enter_otp == null) {
     } else {
       alert("Please enter Correct otp");

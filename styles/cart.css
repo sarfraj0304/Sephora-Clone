@@ -38,6 +38,10 @@
 }
 #product_div > div > div:nth-child(3) > h5 {
   margin-bottom: 40px;
+  text-align: center;
+}
+#product_div > div > div:nth-child(3) > h5::before {
+  content: "$ ";
 }
 #product_div > div > div:nth-child(3) > button {
   padding: 5px 10px;
@@ -69,6 +73,10 @@
   font-size: 18px;
   margin-top: 20px;
 }
+
+.right_cart_div > h4 > span::before {
+  content: "$ ";
+}
 .right_cart_div button {
   padding: 15px 20px;
   cursor: pointer;
@@ -81,7 +89,6 @@
   margin: 20px 0;
   font-size: 15px;
   border: none;
-  
 }
 .right_cart_div button:hover {
   background-color: rgb(224, 0, 10);

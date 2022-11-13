@@ -2748,73 +2748,49 @@
   ],
   "order_details": [
     {
-      "fname": "Sachin",
-      "lname": "Mishra",
-      "number": "07080623634",
-      "address": "12",
-      "price": 4331,
+      "fname": "Saurabh",
+      "lname": "Kumar",
+      "number": "9874210315",
+      "address": "Mumbai",
+      "price": "$7554",
       "productName": [
-        "PRO Foundation Brush #56",
-        "Mini The Cult Classic Purifying Face Cleanser",
-        "Mini 24-7 Moisture Hydrating Day & Night Cream"
+        "Daisy",
+        "Complete Brush Set",
+        "Mini Brazilian Crush Cheirosa ’68 Beija Flor™ Hair & Body Fragrance Mist",
+        "Mini Elixir Ultime Hydrating Hair Oil Serum"
       ],
-      "date": "12/11/2022, 23:40:20",
+      "date": "11/13/2022, 3:24:58 PM",
       "id": 1
     },
     {
       "fname": "Sachin",
-      "lname": "Mishra",
-      "number": "07080623634",
-      "address": "12",
-      "price": 4331,
+      "lname": "Kumar",
+      "number": "9865220314",
+      "address": "Jaunpur",
+      "price": "$7554",
       "productName": [
-        "PRO Foundation Brush #56",
-        "Mini The Cult Classic Purifying Face Cleanser",
-        "Mini 24-7 Moisture Hydrating Day & Night Cream"
+        "Daisy",
+        "Complete Brush Set",
+        "Mini Brazilian Crush Cheirosa ’68 Beija Flor™ Hair & Body Fragrance Mist",
+        "Mini Elixir Ultime Hydrating Hair Oil Serum"
       ],
-      "date": "12/11/2022, 23:43:20",
+      "date": "11/13/2022, 3:29:45 PM",
       "id": 2
     },
     {
-      "fname": "Sachin",
-      "lname": "Mishra",
-      "number": "07080623634",
-      "address": "12",
-      "price": 4331,
-      "productName": [
-        "PRO Foundation Brush #56",
-        "Mini The Cult Classic Purifying Face Cleanser",
-        "Mini 24-7 Moisture Hydrating Day & Night Cream"
-      ],
-      "date": "12/11/2022, 23:45:07",
-      "id": 3
-    },
-    {
-      "fname": "abcd",
-      "lname": "xyz",
-      "number": "9459685465",
-      "address": "jaunpur",
-      "price": 4331,
-      "productName": [
-        "PRO Foundation Brush #56",
-        "Mini The Cult Classic Purifying Face Cleanser",
-        "Mini 24-7 Moisture Hydrating Day & Night Cream"
-      ],
-      "date": "12/11/2022, 23:46:33",
-      "id": 4
-    },
-    {
-      "fname": "Sarfraj",
-      "lname": "Ahmad",
-      "number": "7485963125",
-      "address": "Delhi",
-      "price": 2530,
+      "fname": "Anukul",
+      "lname": "Kumar",
+      "number": "9865014785",
+      "address": "U.P",
+      "price": "$6043.2",
       "productName": [
         "Daisy",
-        "Complete Brush Set"
+        "Complete Brush Set",
+        "Mini Brazilian Crush Cheirosa ’68 Beija Flor™ Hair & Body Fragrance Mist",
+        "Mini Elixir Ultime Hydrating Hair Oil Serum"
       ],
-      "date": "11/13/2022, 12:42:16 AM",
-      "id": 5
+      "date": "11/13/2022, 3:36:20 PM",
+      "id": 3
     }
   ],
   "all_products": [
