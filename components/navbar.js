@@ -16,7 +16,12 @@ const navbar = () => {
       </div>
       <div class="signin_div">
         <img src="./icons/icons8-login.gif" alt="" />
-        <a href="">Sign In</a>
+        <p>Sign In</p>
+        <div id = "admin_login">
+          <a href="./user_sign.html">Customer Login</a>
+          <a href="./admin-side-login/Admin-signin.html">Admin Login</a>
+        </div>
+        
       </div>
       <div class="menu_icons_div">
         <img

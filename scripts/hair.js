@@ -32,14 +32,17 @@ const appendData = (data) => {
 
       var pName = document.createElement("p");
       pName.innerText = el.productName;
+
+      var pPrice = document.createElement("h3");
+      pPrice.innerText = el.price;
+
       var rating = document.createElement("p");
       for (let i = 0; i < +el.rating; i++) {
         const star = document.createElement("span");
         star.className = "stars";
         rating.append(star);
       }
-      var pPrice = document.createElement("h4");
-      pPrice.innerText = el.price;
+
       div.addEventListener("click", function () {
         getdetails(el);
       });

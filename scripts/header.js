@@ -358,3 +358,36 @@ let getDataMini = (el) => {
   localStorage.setItem("wind", JSON.stringify(el));
   window.location.href = "detail.html";
 };
+//signin handle
+let signin_div = document.querySelector(".signin_div");
+signin_div.onclick = () => {
+  let admin_login = document.getElementById("admin_login");
+  if (admin_login.style.display == "none") {
+    admin_login.style.display = "block";
+  } else {
+    admin_login.style.display = "none";
+  }
+};
+let login_data = document.getElementById("login_data");
+let stored_data = JSON.parse(sessionStorage.getItem("user_login")) || null;
+if (stored_data != null) {
+  signin_div.innerHTML = `<div id="login_icon_data"><img id="log_icon" src="https://img.icons8.com/material/96/null/user-male-circle--v1.png"/><div id="logout_section"><p></p><p></p></div></div>`;
+}
+let showInfo = document.querySelector("#logout_section>p:nth-child(1)");
+showInfo.innerText = stored_data.email;
+let logout_data = document.querySelector("#logout_section>p:nth-child(2)");
+logout_data.innerText = "Logout";
+logout_data.onclick = () => {
+  sessionStorage.removeItem("user_login");
+  location.href = "./index.html";
+};
+
+let logoutIcon = document.getElementById("log_icon");
+logoutIcon.onclick = () => {
+  let logout_sec = document.getElementById("logout_section");
+  if (logout_sec.style.display == "none") {
+    logout_sec.style.display = "block";
+  } else {
+    logout_sec.style.display = "none";
+  }
+};
