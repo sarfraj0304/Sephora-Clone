@@ -5,31 +5,30 @@ const  footer = () => {
       <div><strong>Live Beauty Help</strong></div>
       <div>1-877-737-4672 <br>TTY: 1-888-866-9845</div>
       <div>Get the App <br>Text “APP” to 36681</div>
-      <div><strong>Sephora Credit Card Program</strong>Want 25% off your Sephora purchase1? DETAILS</div>
+      <div><strong>Sparkle Credit Card Program</strong>Want 25% off your Sparkle purchase1? DETAILS</div>
     </div>
     <div class="line"></div>
     <div id="big">
       <div class="one">
-        <h4>About Sephora</h4>
-        <p>About Sephora</p>
+        <h4>About Sparkle</h4>
         <p>Newsroom</p>
         <p>Careers</p>
-        <p>Sephora Social Impact</p>
+        <p>Sparkle Social Impact</p>
         <p>Supply Chain Transparency</p>
         <p>Affiliates</p>
-        <p>Sephora Events</p>
+        <p>Sparkle Events</p>
         <p>Gift Cards</p>
-        <p>Sephora Global Sites</p>
+        <p>Sparkle Global Sites</p>
         <p>Diversity and Inclusion</p>
         <p>Checkout on Instagram</p>
-        <p>Sephora Accelerate</p>
+        <p>Sparkle Accelerate</p>
         <p>Report a Vulnerability</p>
 
       </div>
       <div class="one">
-        <h4>My Sephora</h4>
+        <h4>My Sparkle</h4>
         <p>Beauty Insider</p>
-        <p>Sephore Credit Card</p>
+        <p>Sparkle Credit Card</p>
         <p>Community Profile</p>
         <p>Order Status</p>
         <p>Purchase History</p>
@@ -50,8 +49,8 @@ const  footer = () => {
         <p>Billing</p>
         <p>International Shipments</p>
         <p>beauty Services FAQ</p>
-        <p>Sephora at Kohl's</p>
-        <p>Sephora Inside JCPenny</p>
+        <p>Sparkle at Kohl's</p>
+        <p>Sparkle Inside JCPenny</p>
         <p>Store Locations</p>
         <p>Online Ordering</p>
         <p>Klarna</p>
@@ -76,7 +75,7 @@ const  footer = () => {
       <div id="newsflex">
         <h1>We Belong to Something Beautiful</h1>
         <div id="news">
-          <p>Signup for Sephora Emails</p>
+          <p>Signup for Sparkle Emails</p>
           <div>
             <input type="email" id="email" placeholder="Enter your email address">
             <button id="btn">Sign Up</button>
@@ -88,7 +87,7 @@ const  footer = () => {
     <div class="line"></div>
     <div id="last">
       <div style="padding-left: 10%;">
-        <p>© 2022 Sephora USA, Inc. All rights reserved.</p>
+        <p>© 2022 Sparkle USA, Inc. All rights reserved.</p>
         <div id="pri">
           <p style="padding-left: -10px;">Privacy Policy</p>
           <p>Terms of Use</p>
