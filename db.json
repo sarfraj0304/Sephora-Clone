@@ -7,7 +7,7 @@
       "image": "https://www.sephora.com/productimages/sku/s2496453-main-Lhero.jpg?pb=2020-03-sephora-clean-2019",
       "rating": 2,
       "reviews": "8",
-      "price": 1999,
+      "price": 1599,
       "brandName": "Dr. Dennis Gross Skincare",
       "quantity": 50,
       "description": "Dr. Dennis Gross Skincare - Mini Alpha Beta® Ultra Gentle Daily Peel for Sensitive Skin"
@@ -2779,6 +2779,13 @@
       "password": "sss",
       "number": "+917080623634",
       "id": "foyVDW3"
+    },
+    {
+      "firstname": "sachin",
+      "email": "abc@gmail.com",
+      "password": "12345",
+      "number": "9865984756",
+      "id": "HTXCEDt"
     }
   ],
   "order_details": [
@@ -2840,6 +2847,30 @@
       ],
       "date": "11/13/2022, 7:20:34 PM",
       "id": 4
+    },
+    {
+      "fname": "Anukul",
+      "lname": "Kumar",
+      "number": "145257882",
+      "address": "Delhi",
+      "price": "$607.75",
+      "productName": [
+        "Matte Revolution Lipstick"
+      ],
+      "date": "11/13/2022, 11:08:45 PM",
+      "id": 5
+    },
+    {
+      "fname": "Anukul",
+      "lname": "Sharnma",
+      "number": "8759745932",
+      "address": "Delhi",
+      "price": "$2535",
+      "productName": [
+        "Y Eau de Parfum"
+      ],
+      "date": "11/13/2022, 11:26:56 PM",
+      "id": 6
     }
   ],
   "all_products": [

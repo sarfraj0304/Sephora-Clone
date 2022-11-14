@@ -1,5 +1,4 @@
-
-body{
+body {
   margin: 0;
   padding: 0;
 }
@@ -9,6 +8,7 @@ body{
   background-color: black;
   color: azure;
   padding-bottom: 60px;
+  /* overflow: hidden; */
 }
 
 .btm {
@@ -115,4 +115,39 @@ width: 100%;
 
 .one > h4 {
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  #body div {
+    width: 90%;
+  }
+  #body > div p {
+    font-size: 9px;
+  }
+  #body > div h4 {
+    font-size: 12px;
+  }
+  #body > div h1 {
+    font-size: 12px;
+  }
+  img {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #body div {
+    width: 90%;
+  }
+  #body > div p {
+    font-size: 7px;
+  }
+  #body > div h4 {
+    font-size: 10px;
+  }
+  #body > div h1 {
+    font-size: 10px;
+  }
+  img {
+    width: 50%;
+  }
 }

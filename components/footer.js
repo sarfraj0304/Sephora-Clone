@@ -1,4 +1,4 @@
-const  footer = () => {
+const footer = () => {
   return `<div id="body">
     <div class="btm">
       <div><strong>Find a Store</strong>Choose Your Store</div>
@@ -75,40 +75,11 @@ const  footer = () => {
       </div>
       <div id="newsflex">
         <h1>We Belong to Something Beautiful</h1>
-        <div id="news">
-          <p>Signup for Sephora Emails</p>
-          <div>
-            <input type="email" id="email" placeholder="Enter your email address">
-            <button id="btn">Sign Up</button>
-          </div>
+        
         </div>
       </div>
 
     </div>
-    <div class="line"></div>
-    <div id="last">
-      <div style="padding-left: 10%;">
-        <p>© 2022 Sephora USA, Inc. All rights reserved.</p>
-        <div id="pri">
-          <p style="padding-left: -10px;">Privacy Policy</p>
-          <p>Terms of Use</p>
-          <p>Accessibility</p>
-          <p>Sitemap</p>
-          <p>CA - Do Not Sell My Personal Information</p>
-        </div>
-
-      </div>
-      <div id="soc">
-        <img src="https://www.sephora.com/img/ufe/icons/instagram-ko.svg" alt="" class="social">
-        <img src="https://www.sephora.com/img/ufe/icons/facebook-ko.svg" alt="" class="social">
-        <img src="https://www.sephora.com/img/ufe/icons/twitter-ko.svg" alt="" class="social">
-        <img src="https://www.sephora.com/img/ufe/icons/youtube-ko.svg" alt="" class="social">
-        <img src="https://www.sephora.com/img/ufe/icons/pinterest-ko.svg" alt="" class="social">
-        <img src="https://www.sephora.com/img/ufe/icons/snapchat-ko.svg" alt="" class="social">
-        <img src="https://www.sephora.com/img/ufe/icons/tiktok-ko.svg" alt="" class="social">
-      </div>
-    </div>
-  </div>
   `;
 };
 
