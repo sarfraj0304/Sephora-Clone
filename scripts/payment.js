@@ -26,6 +26,7 @@ const matchOtp = () => {
       alert("Your Order is sucessfully placed");
       customer_detail();
       localStorage.removeItem("shipping_details");
+      location.href = "./index.html";
     } else if (enter_otp == null) {
     } else {
       alert("Please enter Correct otp");

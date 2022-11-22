@@ -7,7 +7,7 @@
       "image": "https://www.sephora.com/productimages/sku/s2496453-main-Lhero.jpg?pb=2020-03-sephora-clean-2019",
       "rating": 2,
       "reviews": "8",
-      "price": 1599,
+      "price": 2999,
       "brandName": "Dr. Dennis Gross Skincare",
       "quantity": 50,
       "description": "Dr. Dennis Gross Skincare - Mini Alpha Beta® Ultra Gentle Daily Peel for Sensitive Skin"
@@ -2712,7 +2712,7 @@
   "Admin-Details": [
     {
       "MailId": "sarfrajahmadraza@gmail.com",
-      "Pass": "Sam@123",
+      "Pass": "12345",
       "id": 1
     }
   ],
@@ -2720,16 +2720,9 @@
     {
       "firstname": "Ayush",
       "lastname": "Gupta",
-      "email": "ayush8583@gmail.com",
-      "password": "ayush8520",
+      "email": "abc@gmail.com",
+      "password": "12345",
       "id": "wNOKy7d"
-    },
-    {
-      "firstname": "sachin",
-      "lastname": "mishra",
-      "email": "sachin8583@gmail.com",
-      "password": "sachin123456",
-      "id": "U9w0GSK"
     },
     {
       "firstname": "Ankul",
@@ -2737,13 +2730,6 @@
       "email": "ankul8583@gmail.com",
       "password": "ankul0000",
       "id": "U3oJN_z"
-    },
-    {
-      "firstname": "sarfraz",
-      "lastname": "ali",
-      "email": "sarfraz8583@gmail.com",
-      "password": "sarfraz5555",
-      "id": "kOjdaZr"
     },
     {
       "firstname": "Sachin",
@@ -2758,34 +2744,6 @@
       "email": "msachin786.pm@gmail.com",
       "password": "sachin",
       "id": "0I0_Voc"
-    },
-    {
-      "firstname": "Sachin",
-      "lastname": "Mishra",
-      "email": "msachin786.pm@gmail.com",
-      "password": "sachin",
-      "id": "TNgu5V7"
-    },
-    {
-      "firstname": "Sachin",
-      "email": "msachin786.pm@gmail.com",
-      "password": "sach",
-      "number": "+917080623634",
-      "id": "63VZIxY"
-    },
-    {
-      "firstname": "Sachin",
-      "email": "msachin786.pm@gmail.com",
-      "password": "sss",
-      "number": "+917080623634",
-      "id": "foyVDW3"
-    },
-    {
-      "firstname": "sachin",
-      "email": "abc@gmail.com",
-      "password": "12345",
-      "number": "9865984756",
-      "id": "HTXCEDt"
     }
   ],
   "order_details": [
@@ -2871,6 +2829,30 @@
       ],
       "date": "11/13/2022, 11:26:56 PM",
       "id": 6
+    },
+    {
+      "fname": "Sarfraj",
+      "lname": "Ahmad",
+      "number": "9865748594",
+      "address": "Delhi",
+      "price": "$1029.75",
+      "productName": [
+        "Mini Brazilian Crush Cheirosa ’68 Beija Flor™ Hair & Body Fragrance Mist"
+      ],
+      "date": "11/14/2022, 4:43:58 PM",
+      "id": 7
+    },
+    {
+      "fname": "xyz",
+      "lname": "xyz",
+      "number": "9574696536",
+      "address": "xyz",
+      "price": "$950.25",
+      "productName": [
+        "Mini Daisy Perfume Set"
+      ],
+      "date": "11/14/2022, 5:38:52 PM",
+      "id": 8
     }
   ],
   "all_products": [
@@ -5591,7 +5573,7 @@
       "id": 2
     },
     {
-      "active": true,
+      "active": false,
       "code": "WINTER25",
       "description": "Winter Sale 2022",
       "amount": 25,
