@@ -1,5 +1,5 @@
 const getDiscountData = async () => {
-  let res = await fetch(`http://localhost:3000/discounts`);
+  let res = await fetch(`https://sephora-server.onrender.com/discounts`);
   let data = await res.json();
   console.log(data);
   appendDiscountData(data);
@@ -49,7 +49,7 @@ const updateActive = async (id, btn_text) => {
     let dataToSend = {
       active: false,
     };
-    let res = await fetch(`http://localhost:3000/discounts/${id}`, {
+    let res = await fetch(`https://sephora-server.onrender.com/discounts/${id}`, {
       method: "PATCH",
       body: JSON.stringify(dataToSend),
       headers: {
@@ -61,7 +61,7 @@ const updateActive = async (id, btn_text) => {
     let dataToSend2 = {
       active: true,
     };
-    let resagain = await fetch(`http://localhost:3000/discounts/${id}`, {
+    let resagain = await fetch(`https://sephora-server.onrender.com/discounts/${id}`, {
       method: "PATCH",
       body: JSON.stringify(dataToSend2),
       headers: {
@@ -85,7 +85,7 @@ filter_disc.onchange = () => {
 };
 
 const handle_filter = async (query, value) => {
-  let res = await fetch(`http://localhost:3000/discounts?${query}=${value}`);
+  let res = await fetch(`https://sephora-server.onrender.com/discounts?${query}=${value}`);
   let data = await res.json();
   appendDiscountData(data);
 };
@@ -106,7 +106,7 @@ searchBtn.onclick = () => {
 };
 
 const search_discount_data = async (d) => {
-  let res = await fetch(`http://localhost:3000/discounts`);
+  let res = await fetch(`https://sephora-server.onrender.com/discounts`);
   let data = await res.json();
   data = data.filter(({ description }) => {
     return description.includes(d);

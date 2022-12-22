@@ -13,7 +13,7 @@ let sendData = async () => {
     MailId,
     Pass,
   };
-  let promise = await fetch("http://localhost:3000/Admin-Details", {
+  let promise = await fetch("https://sephora-server.onrender.com/Admin-Details", {
     method: "POST",
     body: JSON.stringify(dataToSend),
     headers: {
@@ -24,7 +24,7 @@ let sendData = async () => {
 const validate = async (mail, pass) => {
   let MailId;
   let Pass;
-  let promise = await fetch("http://localhost:3000/Admin-Details");
+  let promise = await fetch("https://sephora-server.onrender.com/Admin-Details");
   let data = await promise.json();
   data.forEach((el) => {
     MailId = el.MailId;
@@ -55,7 +55,7 @@ resetPass.onclick = async () => {
     let dataToSend = {
       Pass: inputPass,
     };
-    let promise = await fetch("http://localhost:3000/Admin-Details/1", {
+    let promise = await fetch("https://sephora-server.onrender.com/Admin-Details/1", {
       method: "PATCH",
       body: JSON.stringify(dataToSend),
       headers: {

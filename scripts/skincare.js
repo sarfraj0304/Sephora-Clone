@@ -10,7 +10,7 @@ footer_id.innerHTML = footer();
 
 const getData = async () => {
   try {
-    let res = await fetch("http://localhost:3000/skincare");
+    let res = await fetch("https://sephora-server.onrender.com/skincare");
     let data = await res.json();
 
     appendData(data);
@@ -75,7 +75,7 @@ const sort_handle = async (query, value) => {
   document.getElementById("items").innerHTML = null;
 
   let res = await fetch(
-    `http://localhost:3000/skincare?_sort=${query}&_order=${value}`
+    `https://sephora-server.onrender.com/skincare?_sort=${query}&_order=${value}`
   );
   let data = await res.json();
 
@@ -96,7 +96,7 @@ filter_Prods.onchange = () => {
 
 const handle_filter = async (query, value) => {
   document.getElementById("items").innerHTML = null;
-  let res = await fetch(`http://localhost:3000/skincare?${query}=${value}`);
+  let res = await fetch(`https://sephora-server.onrender.com/skincare?${query}=${value}`);
   let data = await res.json();
   appendData(data);
 };
@@ -122,7 +122,7 @@ search_item.onkeypress = (e) => {
 };
 
 const search_products_data = async (d) => {
-  let res = await fetch(`http://localhost:3000/all_products`);
+  let res = await fetch(`https://sephora-server.onrender.com/all_products`);
   let data = await res.json();
   data = data.filter(({ productName }) => {
     return productName.includes(d);

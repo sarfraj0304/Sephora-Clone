@@ -36,7 +36,7 @@ const matchOtp = () => {
 const customer_detail = async () => {
   let obj = JSON.parse(localStorage.getItem("shipping_details"));
   console.log(obj);
-  let res = await fetch("http://localhost:3000/order_details", {
+  let res = await fetch("https://sephora-server.onrender.com/order_details", {
     method: "POST",
     body: JSON.stringify(obj),
     headers: {

@@ -58,7 +58,7 @@ const getDataFromStorage = () => {
 };
 const customer_detail = async () => {
   if (Input_Data != null) {
-    let res = await fetch("http://localhost:3000/order_details", {
+    let res = await fetch("https://sephora-server.onrender.com/order_details", {
       method: "POST",
       body: JSON.stringify(Input_Data),
       headers: {
@@ -118,7 +118,7 @@ if (data != 0) {
 let apply_btn = document.getElementById("apl");
 
 apply_btn.onclick = async () => {
-  let res = await fetch(`http://localhost:3000/discounts`);
+  let res = await fetch(`https://sephora-server.onrender.com/discounts`);
   let finalData = await res.json();
   discount(finalData);
 };

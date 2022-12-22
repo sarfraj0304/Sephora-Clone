@@ -1,5 +1,5 @@
 const getOrdersData = async () => {
-  let res = await fetch(`http://localhost:3000/order_details`);
+  let res = await fetch(`https://sephora-server.onrender.com/order_details`);
   let data = await res.json();
   appendOrdersData(data);
 };

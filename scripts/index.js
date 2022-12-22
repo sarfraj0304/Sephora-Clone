@@ -9,7 +9,7 @@ footer_id.innerHTML = footer();
 // product 1 data fetching starts
 
 let fetch_image_slide_skincare_data = async () => {
-  let res = await fetch("http://localhost:3000/skincare");
+  let res = await fetch("https://sephora-server.onrender.com/skincare");
 
   let data = await res.json();
   append_product_1_slide_data(data);
@@ -50,7 +50,7 @@ fetch_image_slide_skincare_data();
 // product 2 data fetching starts
 
 let fetch_image_slide_Fragrance_data = async () => {
-  let res = await fetch("http://localhost:3000/Fragrance");
+  let res = await fetch("https://sephora-server.onrender.com/Fragrance");
 
   let data = await res.json();
   append_product_2_slide_data(data);
@@ -90,7 +90,7 @@ fetch_image_slide_Fragrance_data();
 // product 3 data fetching starts
 
 let fetch_image_slide_hair_data = async () => {
-  let res = await fetch("http://localhost:3000/hair");
+  let res = await fetch("https://sephora-server.onrender.com/hair");
 
   let data = await res.json();
   append_product_3_slide_data(data);
@@ -131,7 +131,7 @@ fetch_image_slide_hair_data();
 // product 4 data fetching starts
 
 let fetch_image_slide_lipstick_data = async () => {
-  let res = await fetch("http://localhost:3000/lipstick");
+  let res = await fetch("https://sephora-server.onrender.com/lipstick");
 
   let data = await res.json();
   append_product_4_slide_data(data);
@@ -173,7 +173,7 @@ fetch_image_slide_lipstick_data();
 // product 5 data fetching starts
 
 let fetch_image_slide_brush_data = async () => {
-  let res = await fetch("http://localhost:3000/brush");
+  let res = await fetch("https://sephora-server.onrender.com/brush");
 
   let data = await res.json();
   append_product_5_slide_data(data);

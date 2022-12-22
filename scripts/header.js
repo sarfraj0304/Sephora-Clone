@@ -15,7 +15,7 @@ basket_count.innerText = count.length;
 
 // fetching and appending for brush category
 let fetchDataBrush = async () => {
-  let res = await fetch("http://localhost:3000/brush");
+  let res = await fetch("https://sephora-server.onrender.com/brush");
   let data = await res.json();
   appendDataNew(data);
   appendDataTools(data);
@@ -77,7 +77,7 @@ let getDataTools = (el) => {
 // fetching and appending for skincare category
 
 let fetchDataSkincare = async () => {
-  let res = await fetch("http://localhost:3000/skincare");
+  let res = await fetch("https://sephora-server.onrender.com/skincare");
   let data = await res.json();
   appendDataSkincare(data);
   appendDataBath(data);
@@ -162,7 +162,7 @@ let getDataSale = (el) => {
 // fetching and appending for fragrance category
 
 let fetchDatafragrance = async () => {
-  let res = await fetch("http://localhost:3000/fragrance");
+  let res = await fetch("https://sephora-server.onrender.com/fragrance");
   let data = await res.json();
   appendDatafragrance(data);
   appendDataGifts(data);
@@ -221,7 +221,7 @@ let getDataGifts = (el) => {
 // fetching and appending for lipstick category
 
 let fetchDatalipstick = async () => {
-  let res = await fetch("http://localhost:3000/lipstick");
+  let res = await fetch("https://sephora-server.onrender.com/lipstick");
   let data = await res.json();
   appendDataMakeup(data);
   appendDataBrand(data);
@@ -301,7 +301,7 @@ let getDataBeauty = (el) => {
 // fetching and appending for hair category
 
 let fetchDatahair = async () => {
-  let res = await fetch("http://localhost:3000/hair");
+  let res = await fetch("https://sephora-server.onrender.com/hair");
   let data = await res.json();
   appendDatahair(data);
   appendDataMini(data);

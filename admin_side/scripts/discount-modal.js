@@ -36,7 +36,7 @@ addNewDiscount.onclick = async () => {
     amount,
   };
 
-  let res = await fetch(`http://localhost:3000/discounts`, {
+  let res = await fetch(`https://sephora-server.onrender.com/discounts`, {
     method: "POST",
     body: JSON.stringify(dataToSend),
     headers: {

@@ -51,7 +51,7 @@ async function join() {
       number,
     };
 
-    let res = await fetch("http://localhost:3000/user_login_details", {
+    let res = await fetch("https://sephora-server.onrender.com/user_login_details", {
       method: "POST",
 
       body: JSON.stringify(obj),
@@ -78,7 +78,7 @@ signData.onclick = () => {
 };
 
 const getData = async () => {
-  let res = await fetch("http://localhost:3000/user_login_details");
+  let res = await fetch("https://sephora-server.onrender.com/user_login_details");
 
   let data = await res.json();
   loginForm(data);
@@ -114,7 +114,7 @@ function loginForm(data) {
   }
 }
 const getForgotData = async () => {
-  let res = await fetch("http://localhost:3000/user_login_details");
+  let res = await fetch("https://sephora-server.onrender.com/user_login_details");
 
   let data = await res.json();
 
@@ -147,7 +147,7 @@ const forgotPassword = async (data) => {
     let obj = {
       password: new_password,
     };
-    let res = await fetch(`http://localhost:3000/user_login_details/${id}`, {
+    let res = await fetch(`https://sephora-server.onrender.com/user_login_details/${id}`, {
       method: "PATCH",
       body: JSON.stringify(obj),
       headers: {
