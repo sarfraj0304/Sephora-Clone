@@ -8,7 +8,7 @@ import { footer } from "../components/footer.js";
 const footer_id = document.getElementById("footer_id");
 footer_id.innerHTML = footer();
 
-let data = JSON.parse(localStorage.getItem("addToBasket"));
+let data = JSON.parse(localStorage.getItem("addToBasket")) || [];
 
 let displayCartItems = (data) => {
   const product_div = document.getElementById("product_div");

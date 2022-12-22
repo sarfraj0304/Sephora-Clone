@@ -10,7 +10,7 @@ basket_icon.onclick = () => {
 };
 
 const basket_count = document.getElementById("basket_count");
-let count = JSON.parse(localStorage.getItem("addToBasket"));
+let count = JSON.parse(localStorage.getItem("addToBasket")) || [];
 basket_count.innerText = count.length;
 
 // fetching and appending for brush category

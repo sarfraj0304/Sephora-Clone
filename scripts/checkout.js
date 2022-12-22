@@ -3,11 +3,10 @@ import { navbar } from "../components/navbar.js";
 const header = document.getElementById("header");
 header.innerHTML = navbar();
 
-//  footer import 
+//  footer import
 import { footer } from "../components/footer.js";
 const footer_id = document.getElementById("footer_id");
 footer_id.innerHTML = footer();
-
 
 let data = JSON.parse(localStorage.getItem("estimatedTotal"));
 
@@ -105,6 +104,8 @@ payCashBtn.onclick = () => {
         alert("Your order is placed");
         customer_detail();
         localStorage.removeItem("shipping_details");
+        localStorage.removeItem("addToBasket");
+        window.location.href = "index.html";
       } else {
         alert("Worng otp");
       }
